@@ -78,7 +78,7 @@ def dump_json(path,value):
     atomic_bytes(path,(json.dumps(value,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode('utf-8'))
 
 def csv_bytes(rows):
-    handle=io.StringIO(newline='');writer=csv.DictWriter(handle,fieldnames=CSV_COLUMNS)
+    handle=io.StringIO(newline='');writer=csv.DictWriter(handle,fieldnames=CSV_COLUMNS,extrasaction='ignore')
     writer.writeheader()
     for row in rows:
         writer.writerow({**row,'water_level_quality':row['quality']['water_level_m'],
