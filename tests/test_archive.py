@@ -46,4 +46,13 @@ class ArchiveTests(unittest.TestCase):
             self.assertEqual(latest['captured_at'],'2026-10-27T17:00:00+08:00')
             self.assertFalse(latest['fresh']);self.assertEqual(latest['stale_station_rows'],8)
 
+    def test_month_index_lists_archive_counts(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=pathlib.Path(directory);self.capture(root,17);archive.build(root)
+            with (root/'data/index.csv').open(encoding='utf-8-sig',newline='') as handle:
+                rows=list(csv.DictReader(handle))
+            self.assertEqual(rows[0]['month'],'2026-10')
+            self.assertEqual(rows[0]['station_keys'],'8')
+            self.assertEqual(rows[0]['station_time_records'],'8')
+
 if __name__=='__main__':unittest.main()

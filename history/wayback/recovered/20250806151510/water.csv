@@ -1,0 +1,9 @@
+﻿river,station,observed_at,water_level_m,flow_m3_s,limit_value_raw,limit_value_number,limit_value_semantics,water_level_quality,flow_quality,captured_at,source_url
+淮河,洪泽湖蒋坝,2025-08-06 08:00:00,11.64,44.9,-0.86,-0.86,difference_below_threshold,valid,valid,2025-08-06T23:15:10+08:00,http://www.hrc.gov.cn/swj/
+淮河,王家坝,2025-08-06 08:00:00,20.07,39.0,-7.43,-7.43,difference_below_threshold,valid,valid,2025-08-06T23:15:10+08:00,http://www.hrc.gov.cn/swj/
+淮河,正阳关,2025-08-06 08:00:00,17.22,,-6.78,-6.78,difference_below_threshold,valid,missing,2025-08-06T23:15:10+08:00,http://www.hrc.gov.cn/swj/
+淮河,蚌埠吴家渡,2025-08-06 08:00:00,11.66,21.9,-8.64,-8.64,difference_below_threshold,valid,valid,2025-08-06T23:15:10+08:00,http://www.hrc.gov.cn/swj/
+下级湖,微山下级湖,2025-08-06 08:00:00,31.3,20.9,-1.2,-1.2,difference_below_threshold,valid,valid,2025-08-06T23:15:10+08:00,http://www.hrc.gov.cn/swj/
+山东,临沂,2025-08-06 08:00:00,58.01,1.02,-6.04,-6.04,difference_below_threshold,valid,valid,2025-08-06T23:15:10+08:00,http://www.hrc.gov.cn/swj/
+淮河,息县,2025-08-06 08:00:00,34.65,22.1,-6.85,-6.85,difference_below_threshold,valid,valid,2025-08-06T23:15:10+08:00,http://www.hrc.gov.cn/swj/
+骆马湖,骆马湖杨河滩闸,2025-08-06 08:00:00,21.74,63.4,-0.76,-0.76,difference_below_threshold,valid,valid,2025-08-06T23:15:10+08:00,http://www.hrc.gov.cn/swj/

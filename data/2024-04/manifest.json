@@ -1,0 +1,24 @@
+{
+  "month": "2024-04",
+  "station_keys": 19,
+  "station_time_records": 19,
+  "monthly_statistic_rows": 57,
+  "csv_columns": [
+    "station_key",
+    "river",
+    "station",
+    "observed_at",
+    "water_level_m",
+    "flow_m3_s",
+    "limit_value_raw",
+    "limit_value_number",
+    "limit_value_semantics",
+    "quality",
+    "raw_variants",
+    "source_occurrences",
+    "first_captured_at",
+    "last_captured_at",
+    "source_manifests",
+    "original_fields"
+  ]
+}

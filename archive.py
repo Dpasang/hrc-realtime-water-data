@@ -1,5 +1,5 @@
 """Build monthly station series and LongRiver-style daily/latest views."""
-import collections,csv,datetime,hashlib,io,json,pathlib,shutil,statistics
+import collections,csv,datetime,hashlib,io,json,pathlib,statistics
 import collector
 
 ROOT=pathlib.Path(__file__).resolve().parent
@@ -25,13 +25,15 @@ def write_csv(path,rows,columns):
 
 def successful_batches(root):
     batches=[]
-    for manifest_path in sorted((root/'data/daily').glob('*/*/manifest.json')):
+    manifests=list((root/'data/daily').glob('*/*/manifest.json'))+list((root/'history/wayback/recovered').glob('*/manifest.json'))
+    for manifest_path in sorted(manifests):
         manifest=read_json(manifest_path);data=manifest_path.parent/'water.json';table=manifest_path.parent/'water.csv'
         if manifest.get('status')!='success' or not data.exists() or not table.exists():continue
         records=read_json(data)
         if len(records)!=manifest.get('rows'):raise ValueError('Row count mismatch: '+str(manifest_path))
         batches.append({'captured_at':manifest['started_at'],'manifest':manifest_path.relative_to(root).as_posix(),
-                        'json':data,'csv':table,'records':records})
+                        'json':data,'csv':table,'records':records,
+                        'kind':manifest.get('kind','daily_capture')})
     return batches
 
 def combine_metric(items,field):
@@ -138,7 +140,8 @@ def build(root=ROOT,now=None):
         dump(folder/'HRC.json',mapping);stats=[row for row in monthly if row['month']==month];write_csv(folder/'月统计.csv',stats,MONTH_COLUMNS)
         manifest={'month':month,'station_keys':len(stations),'station_time_records':len(rows),'monthly_statistic_rows':len(stats),'csv_columns':STATION_COLUMNS}
         dump(folder/'manifest.json',manifest);index.append(manifest)
-    latest=export_daily_views(root,batches,now)
+    write_csv(root/'data/index.csv',index,['month','station_keys','station_time_records','monthly_statistic_rows'])
+    latest=export_daily_views(root,[batch for batch in batches if batch['kind']=='daily_capture'],now)
     issue_counts=collections.Counter(state for row in records for state in row['quality'].values())
     quality={'generated_at':now.isoformat(),'archive_build_success':True,'metric_status_counts':dict(issue_counts),
              'source_batches':len(batches),'station_time_records':len(records),'mixed_column_policy':'negative values are differences; non-negative semantics remain unconfirmed'}
@@ -149,6 +152,6 @@ def build(root=ROOT,now=None):
             'station_time_records':len(records),'monthly_statistic_rows':len(monthly),
             'last_collection_attempt':attempt,'latest':{key:value for key,value in (latest or {}).items() if key!='records'},
             'quality_report':'status/archive_quality.json'}
-    dump(root/'status/latest.json',result);print(json.dumps(result,ensure_ascii=False,indent=2));return result
+    dump(root/'status/latest.json',result);return result
 
-if __name__=='__main__':build()
+if __name__=='__main__':print(json.dumps(build(),ensure_ascii=False,indent=2))

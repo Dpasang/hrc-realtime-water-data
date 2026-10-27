@@ -1,0 +1,5 @@
+# Preserve downloaded evidence and byte-identical snapshot CSVs across platforms.
+data/daily/** -text
+history/wayback/** -text
+*.csv -text whitespace=cr-at-eol
+

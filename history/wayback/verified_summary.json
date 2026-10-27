@@ -1,0 +1,349 @@
+{
+  "generated_at": "2026-10-27T19:09:27.437696+08:00",
+  "checks_passed": true,
+  "cdx_entries": 38,
+  "recovered_snapshots": 36,
+  "excluded_snapshots": 2,
+  "snapshots": [
+    {
+      "timestamp": "20190719164912",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "DFZDCGVZV6LQPG3SALFN6O3SC464AEYH",
+      "replay_url": "https://web.archive.org/web/20190719164912id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20190719164912/manifest.json"
+    },
+    {
+      "timestamp": "20190918093141",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "YPXJD3DB64PGFKLFCI6NJMNUC66G3DDS",
+      "replay_url": "https://web.archive.org/web/20190918093141id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20190918093141/manifest.json"
+    },
+    {
+      "timestamp": "20191113095603",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "FAX2ISILTBVVW5DQIPPM3L63L3BQ6B7Q",
+      "replay_url": "https://web.archive.org/web/20191113095603id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20191113095603/manifest.json"
+    },
+    {
+      "timestamp": "20200315141626",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "LW75WE4PPSNYCO22DDVQTFED2BZ2WV4X",
+      "replay_url": "https://web.archive.org/web/20200315141626id_/http://www.hrc.gov.cn/swj/",
+      "status": "excluded",
+      "reason": "Required river, station or water level is invalid"
+    },
+    {
+      "timestamp": "20200420000029",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "LCQAJQHPJS4STEFHVGQ24TKZUSSBH5NJ",
+      "replay_url": "https://web.archive.org/web/20200420000029id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20200420000029/manifest.json"
+    },
+    {
+      "timestamp": "20200510101449",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "MRBAOXKZJ5KOI462CA75B2PMMQ2IXAPT",
+      "replay_url": "https://web.archive.org/web/20200510101449id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20200510101449/manifest.json"
+    },
+    {
+      "timestamp": "20200722032516",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "O5IOS3YLXBDZQASZBG2BLUQ35I6ISOMS",
+      "replay_url": "https://web.archive.org/web/20200722032516id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20200722032516/manifest.json"
+    },
+    {
+      "timestamp": "20200729075613",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "AQNUMSZJ73IPLKQ7UR4WL2GGOO766QE3",
+      "replay_url": "https://web.archive.org/web/20200729075613id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20200729075613/manifest.json"
+    },
+    {
+      "timestamp": "20201030044917",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "X45QU7GYD2BMYKYAP3PJ2AHEL4VXMNVC",
+      "replay_url": "https://web.archive.org/web/20201030044917id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20201030044917/manifest.json"
+    },
+    {
+      "timestamp": "20210119054223",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "H3UKHWBEC2TPEHIUKFT2E6QVKXR277AG",
+      "replay_url": "https://web.archive.org/web/20210119054223id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20210119054223/manifest.json"
+    },
+    {
+      "timestamp": "20210822235201",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "5O2UVNQG4CSWDHBGK75SNFOKU2PHKR4W",
+      "replay_url": "https://web.archive.org/web/20210822235201id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20210822235201/manifest.json"
+    },
+    {
+      "timestamp": "20210918202252",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "R3I4K7XEYQFREIAV52H6PSEBRUTVCLYS",
+      "replay_url": "https://web.archive.org/web/20210918202252id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20210918202252/manifest.json"
+    },
+    {
+      "timestamp": "20211119185754",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "6MZOBIBN4HSDYEZ46T3GCXMO4GWLJRZ4",
+      "replay_url": "https://web.archive.org/web/20211119185754id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20211119185754/manifest.json"
+    },
+    {
+      "timestamp": "20220308161341",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "4XOGODE7IMJIVMSRAPE2NWABMWLPDUCK",
+      "replay_url": "https://web.archive.org/web/20220308161341id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20220308161341/manifest.json"
+    },
+    {
+      "timestamp": "20220320120049",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "QRWPZBQWCR5JQ3FDXTKWGS2TSLTO3IED",
+      "replay_url": "https://web.archive.org/web/20220320120049id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20220320120049/manifest.json"
+    },
+    {
+      "timestamp": "20220415133353",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "5SIKV2FH7DWIXO6RJWLZXGZLOO7NH46W",
+      "replay_url": "https://web.archive.org/web/20220415133353id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20220415133353/manifest.json"
+    },
+    {
+      "timestamp": "20220517171339",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "RXTHLDRQL4CAGDPHQYDIA2AKXBWAC6WJ",
+      "replay_url": "https://web.archive.org/web/20220517171339id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20220517171339/manifest.json"
+    },
+    {
+      "timestamp": "20220819115435",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "F73H2SQ7RTOEVOTEG4RPS6INY2AKTP46",
+      "replay_url": "https://web.archive.org/web/20220819115435id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20220819115435/manifest.json"
+    },
+    {
+      "timestamp": "20221208063815",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "EP6QPGBHNB6CGD5KQNEEBFX7DGY3VCQ6",
+      "replay_url": "https://web.archive.org/web/20221208063815id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20221208063815/manifest.json"
+    },
+    {
+      "timestamp": "20230314234721",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "POYYVCBLITDZYSCVPWXPUDKQYEPJLG4V",
+      "replay_url": "https://web.archive.org/web/20230314234721id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20230314234721/manifest.json"
+    },
+    {
+      "timestamp": "20230323082645",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "KMBXK7EREDH4FAWYCLKGOT7VUP27GHI2",
+      "replay_url": "https://web.archive.org/web/20230323082645id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20230323082645/manifest.json"
+    },
+    {
+      "timestamp": "20230507132716",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "2HTSSIJBSKXX575DJLR62NFJVB2W4ZGN",
+      "replay_url": "https://web.archive.org/web/20230507132716id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20230507132716/manifest.json"
+    },
+    {
+      "timestamp": "20230514110948",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "HYOHMZQV7LSA3QEJKBDM2J6R3A4Q2TMI",
+      "replay_url": "https://web.archive.org/web/20230514110948id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20230514110948/manifest.json"
+    },
+    {
+      "timestamp": "20230925133923",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "E3ZIB4C3NYK2CD54G76TLQ24SQ6YEV7U",
+      "replay_url": "https://web.archive.org/web/20230925133923id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20230925133923/manifest.json"
+    },
+    {
+      "timestamp": "20240118062646",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "26BVYYLYJD4ZEJUPJCC2SN2S3SGG2MT7",
+      "replay_url": "https://web.archive.org/web/20240118062646id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20240118062646/manifest.json"
+    },
+    {
+      "timestamp": "20240304085738",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "CL5FMWRS4VATT57NMYNMGCRZTMUDMAZZ",
+      "replay_url": "https://web.archive.org/web/20240304085738id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20240304085738/manifest.json"
+    },
+    {
+      "timestamp": "20240406153042",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "5GKVNR76I2ZDZDDRN4YZSW3TX3ZK73FE",
+      "replay_url": "https://web.archive.org/web/20240406153042id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20240406153042/manifest.json"
+    },
+    {
+      "timestamp": "20240716195842",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "OJ2D55URWZGNOOMV7IEX4B635HWVHN74",
+      "replay_url": "https://web.archive.org/web/20240716195842id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20240716195842/manifest.json"
+    },
+    {
+      "timestamp": "20240721013406",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "VTAIABG5I5XQ33QZ6UIN536KXZQIENI4",
+      "replay_url": "https://web.archive.org/web/20240721013406id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20240721013406/manifest.json"
+    },
+    {
+      "timestamp": "20241214071524",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "JGZLLCTM3P4PXLF6TURPJYPEI2FKQSPY",
+      "replay_url": "https://web.archive.org/web/20241214071524id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20241214071524/manifest.json"
+    },
+    {
+      "timestamp": "20241229004956",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "P47LHZIAK2763CITXHWFACOY3MWNPEKL",
+      "replay_url": "https://web.archive.org/web/20241229004956id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20241229004956/manifest.json"
+    },
+    {
+      "timestamp": "20250311232500",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "77U4NLRY4VZNSZ5RQ523GRIVM2HT7OBE",
+      "replay_url": "https://web.archive.org/web/20250311232500id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20250311232500/manifest.json"
+    },
+    {
+      "timestamp": "20250427135406",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "PB47PIYKAQO4H2HGRXNSME7G3R7JJ4EU",
+      "replay_url": "https://web.archive.org/web/20250427135406id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20250427135406/manifest.json"
+    },
+    {
+      "timestamp": "20250522170127",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "3MQSAW5V4RQH6JJNQUOLNV7K2L7R36NE",
+      "replay_url": "https://web.archive.org/web/20250522170127id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 19,
+      "manifest": "history/wayback/recovered/20250522170127/manifest.json"
+    },
+    {
+      "timestamp": "20250806151510",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "T54MXIP7ZMX3IORZULTOBXE7EUS7YL73",
+      "replay_url": "https://web.archive.org/web/20250806151510id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 8,
+      "manifest": "history/wayback/recovered/20250806151510/manifest.json"
+    },
+    {
+      "timestamp": "20251020082812",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "66QIMIRFYHEMQDZ7ZNT3OG2M5XATAKFB",
+      "replay_url": "https://web.archive.org/web/20251020082812id_/http://www.hrc.gov.cn/swj/",
+      "status": "excluded",
+      "reason": "Realtime water table with expected headers was not found"
+    },
+    {
+      "timestamp": "20260118143908",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "AGUEIQJRIQ5D2CRCLCBNQINCBOJ4Q255",
+      "replay_url": "https://web.archive.org/web/20260118143908id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 8,
+      "manifest": "history/wayback/recovered/20260118143908/manifest.json"
+    },
+    {
+      "timestamp": "20260608053830",
+      "original": "http://www.hrc.gov.cn/swj/",
+      "digest": "LMGXL4G5JBTB4VUBMCBBRZDUNK4P2NCC",
+      "replay_url": "https://web.archive.org/web/20260608053830id_/http://www.hrc.gov.cn/swj/",
+      "status": "recovered",
+      "rows": 8,
+      "manifest": "history/wayback/recovered/20260608053830/manifest.json"
+    }
+  ]
+}

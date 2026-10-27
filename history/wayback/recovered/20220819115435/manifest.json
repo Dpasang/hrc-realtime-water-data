@@ -1,0 +1,15 @@
+{
+  "started_at": "2022-08-19T19:54:35+08:00",
+  "timezone": "Asia/Shanghai",
+  "status": "success",
+  "kind": "historical_wayback",
+  "rows": 19,
+  "source_url": "http://www.hrc.gov.cn/swj/",
+  "archive_url": "https://web.archive.org/web/20220819115435id_/http://www.hrc.gov.cn/swj/",
+  "archive_timestamp_utc": "20220819115435",
+  "observation_min": "2022-08-19 08:00:00",
+  "observation_max": "2022-08-19 19:00:00",
+  "response_encoding": "identity",
+  "source_response_sha256": "302d6920545050120a239eed26769d328b4b9224d9a8767c66ddd0c2de00a0e0",
+  "decoded_html_sha256": "302d6920545050120a239eed26769d328b4b9224d9a8767c66ddd0c2de00a0e0"
+}

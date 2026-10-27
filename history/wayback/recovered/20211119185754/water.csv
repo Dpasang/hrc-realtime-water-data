@@ -1,0 +1,20 @@
+﻿river,station,observed_at,water_level_m,flow_m3_s,limit_value_raw,limit_value_number,limit_value_semantics,water_level_quality,flow_quality,captured_at,source_url
+淮河,息县,2021-11-19 08:00:00,31.61,23.6,-9.89,-9.89,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+淮河,王家坝,2021-11-20 02:00:00,21.63,170.0,-5.87,-5.87,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+淮河,润河集,2021-11-20 01:00:00,21.59,,-3.71,-3.71,difference_below_threshold,valid,missing,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+淮河,临淮岗,2021-11-20 01:42:00,21.59,112.0,-4.41,-4.41,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+淮河,正阳关,2021-11-20 01:24:00,18.2,368.0,-5.8,-5.8,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+淮河,蚌埠,2021-11-20 02:00:00,13.71,422.0,-6.59,-6.59,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+洪泽湖,蒋坝,2021-11-20 02:00:00,13.54,715.0,,,missing,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+潢河,潢川,2021-11-19 08:00:00,33.49,8.8,-4.31,-4.31,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+洪汝河,班台,2021-11-19 08:00:00,23.95,63.0,-9.55,-9.55,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+史灌河,蒋家集,2021-11-19 08:00:00,25.18,43.9,-6.82,-6.82,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+淠河,横排头,2021-11-20 01:24:00,52.79,16.3,-1.21,-1.21,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+沙颍河,阜阳,2021-11-20 02:00:00,28.08,280.0,-2.42,-2.42,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+涡河,蒙城,2021-11-20 02:00:00,25.46,30.3,-0.89,-0.89,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+沂河,临沂,2021-11-19 09:06:00,59.97,28.5,-4.08,-4.08,difference_below_threshold,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+沭河,新沭河闸,2021-11-19 08:00:00,51.12,,-1.38,-1.38,difference_below_threshold,valid,missing,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+上级湖,南阳,2021-11-20 02:00:00,34.87,202.0,,,missing,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+沭河,人民胜利堰闸,2021-11-19 08:00:00,51.12,,-1.38,-1.38,difference_below_threshold,valid,missing,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+骆马湖,洋河滩,2021-11-20 02:00:00,23.15,,,,missing,valid,missing,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/
+下级湖,微山岛,2021-11-20 02:00:00,32.79,242.0,,,missing,valid,valid,2021-11-20T02:57:54+08:00,http://www.hrc.gov.cn/swj/

@@ -1,5 +1,5 @@
 """Collect the public realtime water table embedded in the HRC homepage."""
-import csv,datetime,io,json,pathlib,shutil,tempfile,time,urllib.request,zipfile
+import csv,datetime,io,json,pathlib,shutil,time,urllib.request,zipfile
 from html.parser import HTMLParser
 
 ROOT=pathlib.Path(__file__).resolve().parent

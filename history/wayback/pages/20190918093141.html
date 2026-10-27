@@ -1,0 +1,929 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="renderer" content="webkit" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>水文局</title>
+<meta http-equiv="keywords" content="" />
+<meta http-equiv="description" content="" />
+<link href="/r/cms/swj/swj/css/common.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/r/cms/swj/swj/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/r/cms/swj/swj/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="/r/cms/swj/swj/js/common.js"></script>
+<script type="text/javascript" src="/r/cms/swj/swj/js/roll.js"></script>
+<script src="/r/cms/jquery.js" type="text/javascript"></script>
+<script src="/r/cms/front.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+	Cms.siteFlow("", location.href, document.referrer, "true");
+	$.cookie("_site_id_cookie","5",{path: '' });
+});
+</script>
+<script type="text/javascript">
+			function channellink(obj)
+			{
+				var channel=$(obj).prev().children();
+			    for(var c=0;c<channel.length;c++){
+				    if (channel.eq(c).hasClass("act")) {
+					    var act=$(channel.eq(c)).attr("name");
+					    window.location.href=act+'/index.jhtml';
+				    }
+				}
+			}
+			</script>
+
+</head>
+<body>
+	<div class="wrap">
+<!--top开始-->
+		<div class="top">
+			<div class="title">
+			<img src="/r/cms/swj/swj/images/title.png">
+			<div class="top_search fr">
+			<div style="width:90px;line-height:43px;text-align:center;backgound:#0064b9;height:43px;float:left;color:#fff;font-weight:bold;font-size:15px;">站内检索</div>
+				<div class="navsearch fr">
+				<form action="/search.jspx" target="_blank" id="searchForm">
+<input type="hidden"  name="siteId" value="5" id="qw_site">
+					<input type="text" class="search_input fl" name="q"
+						placeholder="请输入搜索关键字"> <input type="submit" value=""
+						id="searchsubmit" class="searchMenu" style="display:none;">
+					<div class="searchbtn"  onclick="$('#searchsubmit').click()"></div>
+					<i class="clear"></i>
+					</form>
+				</div>
+			</div>
+			</div>
+
+		</div>
+		<!--top结束-->
+		<div class="nav">
+			<ul class="fl">
+				<li style="width:200px;margin-left:30px">
+					<a href="/swj/">网站首页</a>
+				</li>
+				  
+				  <li class="a">
+				     <a href="http://www.hrc.gov.cn/swj/zzjg/index.jhtml" target="_blank" >组织机构<span></span></a>
+				      
+						<div class="nav_ box_s" style="width:1204px;">
+									 <a  class="sub_nav_left0" href="http://www.hrc.gov.cn/swj/jgzz/index.jhtml">机构职责</a> 
+									 <a   href="http://www.hrc.gov.cn/swj/jgyg/index.jhtml">机构沿革</a> 
+									 <a   href="http://www.hrc.gov.cn/swj/nscs/index.jhtml">内设处室</a> 
+									 <a   href="http://www.hrc.gov.cn/swj/ldzl/index.jhtml">领导专栏</a> 
+						</div>
+				      
+					 </li>
+					 
+				  <li class="a">
+				     <a href="http://www.hrc.gov.cn/swj/xwdt/index.jhtml" target="_blank" >新闻动态<span></span></a>
+				      
+						<div class="nav_ box_s" style="width:1204px;">
+									 <a  class="sub_nav_left1" href="http://www.hrc.gov.cn/swj/lyswszy/index.jhtml">流域水文水资源</a> 
+									 <a   href="http://www.hrc.gov.cn/swj/lyslxxh/index.jhtml">流域水利信息化</a> 
+									 <a   href="http://www.hrc.gov.cn/swj/gzdt/index.jhtml">工作动态</a> 
+									 <a   href="http://www.hrc.gov.cn/swj/dflz/index.jhtml">党风廉政</a> 
+						</div>
+				      
+					 </li>
+					 
+				  <li class="a">
+				     <a href="http://www.hrc.gov.cn/swj/gzxx/index.jhtml" target="_blank" >公众信息<span></span></a>
+				      
+						<div class="nav_ box_s" style="width:1204px;">
+									 <a  class="sub_nav_left2" href="http://www.hrc.gov.cn/swj/tzgg/index.jhtml">通知公告</a> 
+									 <a   href="http://www.hfc.gov.cn/">水情预警</a> 
+									 <a   href="http://www.hrc.gov.cn/swj/zcfg/index.jhtml">政策法规</a> 
+									 <a   href="http://www.hrc.gov.cn/swj/gbjb/index.jhtml">公报简报</a> 
+						</div>
+				      
+					 </li>
+					 
+				  <li class="a">
+				     <a href="http://www.hrc.gov.cn/swj/kjcx/index.jhtml" target="_blank" >科技创新<span></span></a>
+				      
+						<div class="nav_ box_s" style="width:1204px;">
+									 <a  class="sub_nav_left3" href="http://www.hrc.gov.cn/swj/kjcx2/index.jhtml">科技创新</a> 
+									 <a   href="http://www.hrc.gov.cn/swj/zgzj/index.jhtml">职工之家</a> 
+						</div>
+				      
+					 </li>
+					 
+				
+			</ul>
+			
+		</div>
+		
+		<!--header结束 -->
+		<!--center开始-->
+		<div class="center ">
+			<!--c_1开始-->
+			<div class="c_1" style="margin-top: 7px;">
+				<!--图片新闻开始-->
+				<div class="pic_news fl m-r-7">
+					<div class="Slide " id="slide">
+						
+					<ul class="slide-cont ">
+						 <li class="slide-item"> <a href="http://www.hrc.gov.cn/swj/dflz/44190.jhtml" target="_blank"><img
+								src="/u/cms/swj/201901/17174214a6mg.jpg"></a>
+								<div class="slide-txt">
+                						<div class="txt_bg"></div>
+               								<a href="http://www.hrc.gov.cn/swj/dflz/44190.jhtml" target="_blank" title="姜永生带队考核我局党支部党风廉政建设责任制落实情况">姜永生带队考核我局党支部党风廉政建设责任制落</a>
+               					 </div>
+							</li>
+						 <li class="slide-item"> <a href="http://www.hrc.gov.cn/swj/gzdt/44005.jhtml" target="_blank"><img
+								src="/u/cms/swj/201901/17082642iu3m.jpg"></a>
+								<div class="slide-txt">
+                						<div class="txt_bg"></div>
+               								<a href="http://www.hrc.gov.cn/swj/gzdt/44005.jhtml" target="_blank" title="我局召开2018年度领导班子和领导干部考核会议">我局召开2018年度领导班子和领导干部考核会议</a>
+               					 </div>
+							</li>
+						 <li class="slide-item"> <a href="http://www.hrc.gov.cn/swj/dflz/24040.jhtml" target="_blank"><img
+								src="/u/cms/swj/201812/191120389lff.jpg"></a>
+								<div class="slide-txt">
+                						<div class="txt_bg"></div>
+               								<a href="http://www.hrc.gov.cn/swj/dflz/24040.jhtml" target="_blank" title="我局举办理想信念教育第一期培训班">我局举办理想信念教育第一期培训班</a>
+               					 </div>
+							</li>
+						 <li class="slide-item"> <a href="http://www.hrc.gov.cn/swj/gzdt/29892.jhtml" target="_blank"><img
+								src="/u/cms/swj/201812/19104106sgyn.jpg"></a>
+								<div class="slide-txt">
+                						<div class="txt_bg"></div>
+               								<a href="http://www.hrc.gov.cn/swj/gzdt/29892.jhtml" target="_blank" title="我局召开2018年工作会议">我局召开2018年工作会议</a>
+               					 </div>
+							</li>
+						 <li class="slide-item"> <a href="http://www.hrc.gov.cn/swj/gzdt/28799.jhtml" target="_blank"><img
+								src="http://www.hrc.gov.cn/u/cms/swj/201806/0613524929yn.jpg"></a>
+								<div class="slide-txt">
+                						<div class="txt_bg"></div>
+               								<a href="http://www.hrc.gov.cn/swj/gzdt/28799.jhtml" target="_blank" title="  总结过去   谋划未来奋力开创淮河水文和信息化事业新局面  ——我局召开2016年工作会议">  总结过去   谋划未来奋力开创淮河水文和信息</a>
+               					 </div>
+							</li>
+					</ul>
+					
+						<div class="slide-nav">
+							<a class="nownav">1</a>
+							<a class="nownav">2</a>
+							<a class="nownav">3</a>
+							<a class="nownav">4</a>
+							<a class="nownav">5</a>
+						</div>
+					</div>
+				</div>
+				<!--图片新闻结束-->
+				<!--工作动态开始-->
+				<div class="work fl js_parent bg_fff">
+					<div class=" z_title">
+						<div class="js_title fl z_title_text" id="1">
+							<a  href="http://www.hrc.gov.cn/swj/gzdt/index.jhtml"  target="_blank" class="act t"> 工作动态</a>
+							<a  href="http://www.hrc.gov.cn/swj/dflz/index.jhtml"  target="_blank" class="t"> 党风廉政</a>
+							<a  href="http://www.hrc.gov.cn/swj/tzgg/index.jhtml"  target="_blank" class="t"> 通知公告</a>
+						</div>
+						
+					</div>
+					<div class="jc_con" id="con0">
+						<ul class="con_ul">
+							<li><a href="http://www.hrc.gov.cn/swj/gzdt/145267.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/145267.jhtml" target="_blank" title="我局召开淮河流域省界断面水资源监测站网建设工程现场交流工作会"> 
+								 我局召开淮河流域省界断面水资源监测站网建设工程现场交流工作会
+								<span>[09-11]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/gzdt/129538.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/129538.jhtml" target="_blank" title="淮河水系重要省界断面水资源监测16处水文站改造项目、沂沭泗河水系重要省界断面水资源监测8处水文站改造项目顺利通过竣工验收"> 
+								 淮河水系重要省界断面水资源监测16处水文站改造项目、沂沭泗河...
+								<span>[08-09]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/gzdt/129340.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/129340.jhtml" target="_blank" title="我局组织开展汛期安全生产检查"> 
+								 我局组织开展汛期安全生产检查
+								<span>[08-09]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/gzdt/128377.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/128377.jhtml" target="_blank" title="委网信办召开2019年淮委网络安全联系人工作会议"> 
+								 委网信办召开2019年淮委网络安全联系人工作会议
+								<span>[08-07]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/gzdt/122775.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/122775.jhtml" target="_blank" title="委领导率队检查和调研沂沭泗水利管理局网络安全工作"> 
+								 委领导率队检查和调研沂沭泗水利管理局网络安全工作
+								<span>[07-26]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/gzdt/119291.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/119291.jhtml" target="_blank" title="我局完成淮河流域省界断面水资源监测站点汛期检查"> 
+								 我局完成淮河流域省界断面水资源监测站点汛期检查
+								<span>[07-19]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/gzdt/113993.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/113993.jhtml" target="_blank" title="我局组织召开淮河流域省界断面水资源监测站点运行维护管理工作讨论会议"> 
+								 我局组织召开淮河流域省界断面水资源监测站点运行维护管理工作...
+								<span>[07-08]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/gzdt/108766.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/108766.jhtml" target="_blank" title="我局组织开展安全生产交流讨论会"> 
+								 我局组织开展安全生产交流讨论会
+								<span>[06-24]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/gzdt/108748.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/108748.jhtml" target="_blank" title="河海大学唐洪武书记一行来淮委调研"> 
+								 河海大学唐洪武书记一行来淮委调研
+								<span>[06-24]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/gzdt/108494.jhtml" id="a_http://www.hrc.gov.cn/swj/gzdt/108494.jhtml" target="_blank" title="乌鲁木齐水文勘测局来我局座谈交流"> 
+								 乌鲁木齐水文勘测局来我局座谈交流
+								<span>[06-14]</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="jc_con hide " id="con1">
+						<ul class="con_ul">
+							<li><a href="http://www.hrc.gov.cn/swj/dflz/108394.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/108394.jhtml" target="_blank" title="我局举办兼职纪检监察员培训班"> 
+								 我局举办兼职纪检监察员培训班
+								<span>[06-05]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/dflz/66754.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/66754.jhtml" target="_blank" title="我局召开2019年党风廉政建设工作会议"> 
+								 我局召开2019年党风廉政建设工作会议
+								<span>[03-06]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/dflz/44190.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/44190.jhtml" target="_blank" title="姜永生带队考核我局党支部党风廉政建设责任制落实情况"> 
+								 姜永生带队考核我局党支部党风廉政建设责任制落实情况
+								<span>[01-17]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/dflz/24038.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/24038.jhtml" target="_blank" title="我局组织召开党风廉政谈话暨 《中国共产党纪律处分条例》学习会议"> 
+								 我局组织召开党风廉政谈话暨 《中国共产党纪律处分条例》学习会议
+								<span>[12-05]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/dflz/24039.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/24039.jhtml" target="_blank" title="我局举办兼职纪检监察员培训班"> 
+								 我局举办兼职纪检监察员培训班
+								<span>[11-12]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/dflz/24040.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/24040.jhtml" target="_blank" title="我局举办理想信念教育第一期培训班"> 
+								 我局举办理想信念教育第一期培训班
+								<span>[10-17]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/dflz/24041.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/24041.jhtml" target="_blank" title="我局党支部组织学习国务院第一次廉政工作会议精神"> 
+								 我局党支部组织学习国务院第一次廉政工作会议精神
+								<span>[07-02]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/dflz/24042.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/24042.jhtml" target="_blank" title="我局召开2018年党风廉政建设工作会议"> 
+								 我局召开2018年党风廉政建设工作会议
+								<span>[03-12]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/dflz/24043.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/24043.jhtml" target="_blank" title="我局举办第二期兼职纪检监察员培训班"> 
+								 我局举办第二期兼职纪检监察员培训班
+								<span>[03-06]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/dflz/24044.jhtml" id="a_http://www.hrc.gov.cn/swj/dflz/24044.jhtml" target="_blank" title="我局学习贯彻习近平总书记关于反“四风”问题最新指示精神"> 
+								 我局学习贯彻习近平总书记关于反“四风”问题最新指示精神
+								<span>[12-28]</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="jc_con hide " id="con2">
+						<ul class="con_ul">
+							<li><a href="http://www.hrc.gov.cn/swj/tzgg/118164.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/118164.jhtml" target="_blank" title="关于闻飞等人任职的通知"> 
+								 关于闻飞等人任职的通知
+								<span>[07-17]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/tzgg/108819.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/108819.jhtml" target="_blank" title="关于王凯、陈红雨免职的通知"> 
+								 关于王凯、陈红雨免职的通知
+								<span>[06-25]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/tzgg/108818.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/108818.jhtml" target="_blank" title="关于郑家虎等人职务任免的通知"> 
+								 关于郑家虎等人职务任免的通知
+								<span>[06-25]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/tzgg/108817.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/108817.jhtml" target="_blank" title="关于丁韶辉任职的通知"> 
+								 关于丁韶辉任职的通知
+								<span>[06-25]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/tzgg/62437.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/62437.jhtml" target="_blank" title="2018年度申报职称人员基本情况公示"> 
+								 2018年度申报职称人员基本情况公示
+								<span>[02-25]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/tzgg/49311.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/49311.jhtml" target="_blank" title="关于邓映之、李凤生任职的通知"> 
+								 关于邓映之、李凤生任职的通知
+								<span>[01-28]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/tzgg/49310.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/49310.jhtml" target="_blank" title="关于王凯、陈红雨任职的通知"> 
+								 关于王凯、陈红雨任职的通知
+								<span>[01-28]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/tzgg/46926.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/46926.jhtml" target="_blank" title="水文局（信息中心）2018年度考核优秀领导干部和优秀职工公示"> 
+								 水文局（信息中心）2018年度考核优秀领导干部和优秀职工公示
+								<span>[01-23]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/tzgg/29890.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/29890.jhtml" target="_blank" title="淮河水利委员会水文局（信息中心） 2019年度公开招聘工作人员面试公告"> 
+								 淮河水利委员会水文局（信息中心） 2019年度公开招聘工作人员面试公告
+								<span>[12-18]</span>
+								</a>
+							</li>							<li><a href="http://www.hrc.gov.cn/swj/tzgg/24054.jhtml" id="a_http://www.hrc.gov.cn/swj/tzgg/24054.jhtml" target="_blank" title="关于冷奇、王式成任职的通知"> 
+								 关于冷奇、王式成任职的通知
+								<span>[10-30]</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+						//工作动态切换
+						$(".js_title a").mouseenter(
+								function() {
+									$(this).addClass("act").siblings()
+											.removeClass("act");
+									$(this).parents(".js_parent").find(
+											".jc_con").addClass("hide");
+									$(this).parents(".js_parent").find(
+											".jc_con").eq($(this).index())
+											.removeClass("hide");
+								});
+					</script>
+				</div>
+   					<div class="clear"></div>
+			</div>
+			<!--c_1结束-->
+
+			<!--c_2开始-->
+			<div class="c_2 clear " style="margin-top: 7px;">
+				<!--实时雨情开始-->
+				<div class="ssyq fl bg_fff m-r-7">
+				<div class="w_title">
+							<a    class="act t"> 实时雨情</a>
+						</div>
+							    <div class="spic">
+							<img src="/u/cms/swj/rain.png?1568797501939" class="pic_img" /> <img
+								src="/r/cms/swj/swj/images/zoom.png" class="zoom">
+							<!--<a href="#">雨量等值线</a>-->
+							</div>
+							<div class="preview" style="display: none;">
+								<img src="/u/cms/swj/rain.png?1568797501939" />
+							</div>
+						
+						<script type="text/javascript">
+							$('.spic').click(function(e) {
+								e.stopPropagation();
+								e.stopImmediatePropagation();
+								var img = $(this).find('img').attr('src');
+								var preview = $('.preview');
+								preview.fadeIn("slow");
+							});
+							$(document).click(function(e) {
+								if ($('.preview').css('display') == 'block')
+									$('.preview').fadeOut(1000);
+
+							});
+						</script>
+					</div>
+				<!--实时雨情结束-->
+				<!--实时水情结束 -->
+				<div class="shuiqing fl js_parent bg_fff m-r-7">
+					<div class="w_title">
+					 <a  class="act"> 实时水情</a>
+					</div>
+					<div  id="con0">
+						<table class="shuiqing_table_head">
+							<tr class="tr_title">
+								<th width="100">河流</th>
+								<th width="120">站名</th>
+								<th width="160">日期</th>
+								
+								<th width="90">水位</th>
+								<th width="90">流量</th>
+								<th width="140">超警戒/汛限水位</th>
+							</tr>
+						</table>
+						<div class="shuiqing_con">
+							<table class="shuiqing_table">
+									<tr>
+									<td width="100">淮河</td>
+									<td width="120">息县</td>
+									<td width="160">2019-09-18 08:00</td>
+									
+									<td width="90">29.75</td>
+									<td width="90">10.2</td>
+									<td width="140">-11.75</td>
+								</tr>
+									<tr>
+									<td width="100">淮河</td>
+									<td width="120">王家坝</td>
+									<td width="160">2019-09-18 04:00</td>
+									
+									<td width="90">21.48</td>
+									<td width="90">58.0</td>
+									<td width="140">-6.02</td>
+								</tr>
+									<tr>
+									<td width="100">淮河</td>
+									<td width="120">润河集</td>
+									<td width="160">2019-09-18 04:00</td>
+									
+									<td width="90">21.46</td>
+									<td width="90"></td>
+									<td width="140">-3.84</td>
+								</tr>
+									<tr>
+									<td width="100">淮河</td>
+									<td width="120">临淮岗</td>
+									<td width="160">2019-09-18 04:42</td>
+									
+									<td width="90">21.44</td>
+									<td width="90">36.0</td>
+									<td width="140">-4.56</td>
+								</tr>
+									<tr>
+									<td width="100">淮河</td>
+									<td width="120">正阳关</td>
+									<td width="160">2019-09-18 04:00</td>
+									
+									<td width="90">17.71</td>
+									<td width="90">97.6</td>
+									<td width="140">-6.29</td>
+								</tr>
+									<tr>
+									<td width="100">淮河</td>
+									<td width="120">蚌埠</td>
+									<td width="160">2019-09-18 04:54</td>
+									
+									<td width="90">12.26</td>
+									<td width="90">40.8</td>
+									<td width="140">-8.04</td>
+								</tr>
+									<tr>
+									<td width="100">洪泽湖</td>
+									<td width="120">蒋坝</td>
+									<td width="160">2019-09-18 04:00</td>
+									
+									<td width="90">12.17</td>
+									<td width="90">380</td>
+									<td width="140">-0.33</td>
+								</tr>
+									<tr>
+									<td width="100">潢河</td>
+									<td width="120">潢川</td>
+									<td width="160">2019-09-18 08:00</td>
+									
+									<td width="90">33.30</td>
+									<td width="90">3.69</td>
+									<td width="140">-4.5</td>
+								</tr>
+									<tr>
+									<td width="100">洪汝河</td>
+									<td width="120">班台</td>
+									<td width="160">2019-09-18 08:00</td>
+									
+									<td width="90">22.86</td>
+									<td width="90">17.2</td>
+									<td width="140">-10.64</td>
+								</tr>
+									<tr>
+									<td width="100">史灌河</td>
+									<td width="120">蒋家集</td>
+									<td width="160">2019-09-18 08:00</td>
+									
+									<td width="90">24.74</td>
+									<td width="90">6.50</td>
+									<td width="140">-7.26</td>
+								</tr>
+									<tr>
+									<td width="100">淠河</td>
+									<td width="120">横排头</td>
+									<td width="160">2019-09-18 04:00</td>
+									
+									<td width="90">52.53</td>
+									<td width="90"></td>
+									<td width="140">-1.47</td>
+								</tr>
+									<tr>
+									<td width="100">沙颍河</td>
+									<td width="120">阜阳</td>
+									<td width="160">2019-09-18 04:42</td>
+									
+									<td width="90">27.82</td>
+									<td width="90">7.00</td>
+									<td width="140">-2.68</td>
+								</tr>
+									<tr>
+									<td width="100">涡河</td>
+									<td width="120">蒙城</td>
+									<td width="160">2019-09-18 04:36</td>
+									
+									<td width="90">24.52</td>
+									<td width="90"></td>
+									<td width="140">-1.83</td>
+								</tr>
+									<tr>
+									<td width="100">沂河</td>
+									<td width="120">临沂</td>
+									<td width="160">2019-09-18 08:00</td>
+									
+									<td width="90">57.28</td>
+									<td width="90">2.88</td>
+									<td width="140">-6.77</td>
+								</tr>
+									<tr>
+									<td width="100">沭河</td>
+									<td width="120">新沭河闸</td>
+									<td width="160">2019-09-18 08:00</td>
+									
+									<td width="90">50.45</td>
+									<td width="90"></td>
+									<td width="140">-2.05</td>
+								</tr>
+									<tr>
+									<td width="100">上级湖</td>
+									<td width="120">南阳</td>
+									<td width="160">2019-09-18 08:00</td>
+									
+									<td width="90">33.89</td>
+									<td width="90"></td>
+									<td width="140">33.89</td>
+								</tr>
+									<tr>
+									<td width="100">沭河</td>
+									<td width="120">人民胜利堰闸</td>
+									<td width="160">2019-09-18 08:00</td>
+									
+									<td width="90">50.45</td>
+									<td width="90"></td>
+									<td width="140">-2.05</td>
+								</tr>
+									<tr>
+									<td width="100">骆马湖</td>
+									<td width="120">洋河滩</td>
+									<td width="160">2019-09-18 04:00</td>
+									
+									<td width="90">22.16</td>
+									<td width="90"></td>
+									<td width="140">22.16</td>
+								</tr>
+									<tr>
+									<td width="100">下级湖</td>
+									<td width="120">微山岛</td>
+									<td width="160">2019-09-18 08:00</td>
+									
+									<td width="90">32.04</td>
+									<td width="90"></td>
+									<td width="140">32.04</td>
+								</tr>
+								
+							</table>
+						</div>
+					</div>
+				</div>
+				<!--实时水情结束 -->
+				<!--领导专栏开始-->
+				<div class="leader fl bg_fff">
+					<div class="w_title">
+					 <a href="http://www.hrc.gov.cn/swj/ldzl/index.jhtml" target="_blank" class="act"> 领导专栏</a>
+					</div>
+						<ul >
+							<li>
+							<div class="leader_img"></div> <a href="http://www.hrc.gov.cn/swj/ldzl/22711.jhtml" target="_blank" title="钱名开">钱名开</a>
+						    </li>
+							<li>
+							<div class="leader_img"></div> <a href="http://www.hrc.gov.cn/swj/ldzl/22712.jhtml" target="_blank" title="徐时进">徐时进</a>
+						    </li>
+							<li>
+							<div class="leader_img"></div> <a href="http://www.hrc.gov.cn/swj/ldzl/22713.jhtml" target="_blank" title="吴恒清">吴恒清</a>
+						    </li>
+						</ul>
+				</div>
+				<!--领导专栏结束 -->
+<div class="zbgz fl">
+								<a href="javascript:void(0)" onclick="switchtishi('http://10.5.1.15/swjdzb/')" target="_blank"><img src="/u/cms/swj/201811/19100446czjd.png" />         
+								</a>
+				</div>
+				<div class="jdjb fl">
+								<a href="http://www.hrc.gov.cn/main/jdjb.jhtml"  target="_blank" title="监督举报"><img src="/u/cms/swj/201812/091347214jyn.png" style="height:95px;"/>
+								</a>
+				</div>
+				<!--水情预警开始-->
+				<div class="sqyj fl ">
+					<a href="http://www.hfc.gov.cn/" target="_blank">
+                <div  style="background:url(/r/cms/swj/swj/images/sqyjfb.png) no-repeat center; width:226px;height:95px;margin:1px; ">
+                		<!--<div >
+                		 <iframe  
+                        src="http://www.hfc.gov.cn/warninfo.urlShow/index/?ID=zaHdcXlqQGhyYy5nb3YuY24=&WinType=winStatic&ShowType=verMarquee&Region=0,0,max,420&Direction0=random&Direction1=up&Direction2=left&TitleColor=000000&IconSize=28&FontSize=13&Width=268&Height=140&Interval=60&ClickClose=false"  
+                         frameBorder=0 width="100%"  scrolling=no height="144px" allowTransparency ></iframe>
+               		</div> --> 
+                		
+                </div>
+            	</a>
+				</div>
+				<!--水情预警结束 -->
+                   <div class="clear"></div>
+			</div>
+			<!--c_2结束-->
+			<!--c_4开始-->
+			<div class="c_4 clear" style="margin-top: 7px;">
+				<!--流域开始-->
+				<div class="section1 fl js_parent bg_fff m-r-7">
+					<div class=" z_title">
+						<div class="js_title fl z_title_text">
+							 <a href="http://www.hrc.gov.cn/swj/lyswszy/index.jhtml" target="_blank" class="act"> 流域水文水资源</a>
+							 <a href="http://www.hrc.gov.cn/swj/lyslxxh/index.jhtml" target="_blank" > 流域水利信息化</a>
+						</div>
+						
+					</div>
+					<div class="jc_con" id="con0">
+						<ul class="con_ul">
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyswszy/145144.jhtml" target="_blank" title="锁定行业初心 水文服务赢得赞誉">锁定行业初心 水文服务赢得赞誉</a> <span>[09-11]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyswszy/145142.jhtml" target="_blank" title="第三次山东省水资源调查评价总报告顺利通过审查">第三次山东省水资源调查评价总报告顺利通过审查</a> <span>[09-11]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyswszy/124688.jhtml" target="_blank" title="江苏省水文局召开全省水文系统半年工作总结视频会议">江苏省水文局召开全省水文系统半年工作总结视频会议</a> <span>[07-30]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyswszy/124667.jhtml" target="_blank" title="张文胜副司长调研河南省水文现代化发展规划情况">张文胜副司长调研河南省水文现代化发展规划情况</a> <span>[07-30]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyswszy/118334.jhtml" target="_blank" title="江苏省水文局研究部署7月份重点工作">江苏省水文局研究部署7月份重点工作</a> <span>[07-17]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyswszy/118333.jhtml" target="_blank" title="河南省水文局组织收看全国水文测报工作视频会议并认真贯彻落实">河南省水文局组织收看全国水文测报工作视频会议并认真贯彻落实</a> <span>[07-17]</span>
+						    </li>
+						</ul>
+					</div>
+					<div class="jc_con hide " id="con1">
+						<ul class="con_ul">
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyslxxh/143028.jhtml" target="_blank" title="水利部网信办组织对淮委开展网络安全工作检查">水利部网信办组织对淮委开展网络安全工作检查</a> <span>[09-06]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyslxxh/108570.jhtml" target="_blank" title="江苏省水利厅开展网络安全事件应急演练">江苏省水利厅开展网络安全事件应急演练</a> <span>[06-17]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyslxxh/108566.jhtml" target="_blank" title="淮委召开网络安全工作会议">淮委召开网络安全工作会议</a> <span>[06-06]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyslxxh/44588.jhtml" target="_blank" title="2018年水利网络安全工作座谈会在京召开">2018年水利网络安全工作座谈会在京召开</a> <span>[12-18]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyslxxh/23287.jhtml" target="_blank" title="山东省水文信息网络安全工作培训班在泰安举办">山东省水文信息网络安全工作培训班在泰安举办</a> <span>[12-06]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lyslxxh/23288.jhtml" target="_blank" title="山东省水文局到江苏省调研水文信息化工作">山东省水文局到江苏省调研水文信息化工作</a> <span>[12-04]</span>
+						    </li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+						$(".js_title a").mouseenter(
+								function() {
+									$(this).addClass("act").siblings()
+											.removeClass("act");
+									$(this).parents(".js_parent").find(
+											".jc_con").addClass("hide");
+									$(this).parents(".js_parent").find(
+											".jc_con").eq($(this).index())
+											.removeClass("hide");
+								});
+					</script>
+				</div>
+				<!--科技创新，职工之家开始-->
+				<div class="section1 fl js_parent bg_fff">
+					<div class="z_title">
+						<div class="js_title fl z_title_text">
+							 <a href="http://www.hrc.gov.cn/swj/kjcx2/index.jhtml" target="_blank" class="act"> 科技创新</a>
+							 <a href="http://www.hrc.gov.cn/swj/zgzj/index.jhtml" target="_blank" > 职工之家</a>
+							</div>
+						
+					</div>
+					<div class="jc_con" id="con0">
+						<ul class="con_ul">
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/kjcx2/96867.jhtml" target="_blank" title="安徽省科学技术奖——淮河水资源定量预报与精细调控关键技术">安徽省科学技术奖——淮河水资源定量预报与精细调控关键技术</a> <span>[05-08]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/kjcx2/24326.jhtml" target="_blank" title="大禹水利科学技术奖——实时洪水概率预报理论和应用">大禹水利科学技术奖——实时洪水概率预报理论和应用</a> <span>[10-29]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/kjcx2/32914.jhtml" target="_blank" title="淮委科技奖——实时洪水概率预报理论与应用">淮委科技奖——实时洪水概率预报理论与应用</a> <span>[04-25]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/kjcx2/32915.jhtml" target="_blank" title="大禹水利科学技术奖——淮河水资源精细化调控关键技术及应用">大禹水利科学技术奖——淮河水资源精细化调控关键技术及应用</a> <span>[12-11]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/kjcx2/24327.jhtml" target="_blank" title="淮委科技奖——基于微信平台的水文信息发布技术">淮委科技奖——基于微信平台的水文信息发布技术</a> <span>[07-07]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/kjcx2/24328.jhtml" target="_blank" title="淮委科技奖——互联网出口复合链路调度和优化研究及应用  ">淮委科技奖——互联网出口复合链路调度和优化研究及应用  </a> <span>[07-06]</span>
+						    </li>
+						</ul>
+					</div>
+					<div class="jc_con hide " id="con1">
+						<ul class="con_ul">
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zgzj/118190.jhtml" target="_blank" title="水利部淮委先进基层党组织——中共淮委水文局（信息中心）支部委员会">水利部淮委先进基层党组织——中共淮委水文局（信息中心）支部...</a> <span>[07-17]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zgzj/118189.jhtml" target="_blank" title="水利部淮委优秀共产党员——李凤生">水利部淮委优秀共产党员——李凤生</a> <span>[07-17]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zgzj/115324.jhtml" target="_blank" title="2018年度五四红旗团（总）支部——水文局（信息中心）团支部">2018年度五四红旗团（总）支部——水文局（信息中心）团支部</a> <span>[07-11]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zgzj/115323.jhtml" target="_blank" title="2018年度全市“优秀共青团员”——夏冬">2018年度全市“优秀共青团员”——夏冬</a> <span>[07-11]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zgzj/115302.jhtml" target="_blank" title="2018年度淮委直属机关优秀共青团员——邱梦凌">2018年度淮委直属机关优秀共青团员——邱梦凌</a> <span>[07-11]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zgzj/115301.jhtml" target="_blank" title="2018年度淮委直属机关优秀共青团员——肖珍珍">2018年度淮委直属机关优秀共青团员——肖珍珍</a> <span>[07-11]</span>
+						    </li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+						//工作动态切换
+						$(".js_title a").mouseenter(
+								function() {
+									$(this).addClass("act").siblings()
+											.removeClass("act");
+									$(this).parents(".js_parent").find(
+											".jc_con").addClass("hide");
+									$(this).parents(".js_parent").find(
+											".jc_con").eq($(this).index())
+											.removeClass("hide");
+								});
+					</script>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<!--c_4结束-->
+			<!--c_5开始-->
+			<div class="c_5 clear" style="margin-top: 7px;">
+				
+				<!--政策法规化开始-->
+				<div class="section1 fl bg_fff m-r-7">
+				<div class="z_title">
+					 <a href="http://www.hrc.gov.cn/swj/zcfg/index.jhtml" target="_blank" class="act"> 政策法规</a>
+					</div>
+						<ul class="con_ul">
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zcfg/24294.jhtml" target="_blank" title="关于印发《安徽省基层工会经费收支管理实施办法（试行）》的通知">关于印发《安徽省基层工会经费收支管理实施办法（试行）》的通知</a> <span>[04-10]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zcfg/24295.jhtml" target="_blank" title="事业单位人事管理条例">事业单位人事管理条例</a> <span>[06-17]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zcfg/24296.jhtml" target="_blank" title="关于进一步规范党政领导干部在企业兼职（任职）问题的意见">关于进一步规范党政领导干部在企业兼职（任职）问题的意见</a> <span>[01-07]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zcfg/24297.jhtml" target="_blank" title="关于印发国家适应气候变化战略的通知">关于印发国家适应气候变化战略的通知</a> <span>[12-12]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zcfg/24298.jhtml" target="_blank" title="党政机关国内公务接待管理规定">党政机关国内公务接待管理规定</a> <span>[12-10]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/zcfg/24299.jhtml" target="_blank" title="党政机关厉行节约反对浪费条例">党政机关厉行节约反对浪费条例</a> <span>[12-02]</span>
+						    </li>
+						</ul>
+				</div>
+				<!--公报简报开始-->
+				<div class="section1 fl js_parent bg_fff">
+					<div class="z_title">
+						<div class="js_title fl z_title_text">
+							 <a href="http://www.hrc.gov.cn/swj/lysstb/index.jhtml" target="_blank" class="act"> 流域水势通报</a>
+							 <a href="http://www.hrc.gov.cn/swj/szygb/index.jhtml" target="_blank" > 水资源公报</a>
+							</div>
+						
+					</div>
+					<div class="jc_con" id="con0">
+						<ul class="con_ul">
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lysstb/147988.jhtml" target="_blank" title="2019年8月淮河流域水势通报">2019年8月淮河流域水势通报</a> <span>[09-17]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lysstb/128505.jhtml" target="_blank" title="2019年7月淮河流域水势通报">2019年7月淮河流域水势通报</a> <span>[08-07]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lysstb/114918.jhtml" target="_blank" title="2019年6月淮河流域水势通报">2019年6月淮河流域水势通报</a> <span>[07-10]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lysstb/108375.jhtml" target="_blank" title="2019年5月淮河流域水势通报">2019年5月淮河流域水势通报</a> <span>[06-10]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lysstb/97875.jhtml" target="_blank" title="2019年4月淮河流域水势通报">2019年4月淮河流域水势通报</a> <span>[05-10]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/lysstb/87417.jhtml" target="_blank" title="2019年3月淮河流域水势通报">2019年3月淮河流域水势通报</a> <span>[04-18]</span>
+						    </li>
+						</ul>
+					</div>
+					<div class="jc_con hide " id="con1">
+						<ul class="con_ul">
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/szygb/24350.jhtml" target="_blank" title="淮河片水资源公报（2017年度）">淮河片水资源公报（2017年度）</a> <span>[12-04]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/szygb/24351.jhtml" target="_blank" title="淮河片水资源公报（2016年度）">淮河片水资源公报（2016年度）</a> <span>[12-04]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/szygb/24353.jhtml" target="_blank" title="淮河片水资源公报（2015年度）">淮河片水资源公报（2015年度）</a> <span>[12-04]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/szygb/24357.jhtml" target="_blank" title="淮河片水资源公报（2014年度）">淮河片水资源公报（2014年度）</a> <span>[12-04]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/szygb/24359.jhtml" target="_blank" title="淮河片水资源公报（2013年度）">淮河片水资源公报（2013年度）</a> <span>[12-04]</span>
+						    </li>
+							<li>
+							<a href="http://www.hrc.gov.cn/swj/szygb/24361.jhtml" target="_blank" title="淮河片水资源公报（2012年度）">淮河片水资源公报（2012年度）</a> <span>[12-04]</span>
+						    </li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+						//工作动态切换
+						$(".js_title a").mouseenter(
+								function() {
+									$(this).addClass("act").siblings()
+											.removeClass("act");
+									$(this).parents(".js_parent").find(
+											".jc_con").addClass("hide");
+									$(this).parents(".js_parent").find(
+											".jc_con").eq($(this).index())
+											.removeClass("hide");
+								});
+					</script>
+				</div>
+				<!--公报简报结束-->
+				<!--政策法规结束-->
+				<div class="clear"></div>
+			</div>
+			<!--c_5结束-->
+			<div class="c_7 cle bg_fff" style="margin-top: 7px;">
+				<div class="friendslink bg_fff">
+					<span class="fl" style="padding-left:10px;background:#0064b9;color:#fff;">友情链接：</span>
+					<ul>
+							<li > <a href="http://xxzx.mwr.gov.cn/"  target="_blank" title="水利部信息中心">水利部信息中心</a> 
+							</li>          
+							<li > <a href="http://sw.hubeiwater.gov.cn/"  target="_blank" title="湖北水文">湖北水文</a> 
+							</li>          
+							<li > <a href="http://www.hnssw.com.cn/"  target="_blank" title="河南水文">河南水文</a> 
+							</li>          
+							<li > <a href="http://slt.ah.gov.cn/swj/"  target="_blank" title="安徽水文">安徽水文</a> 
+							</li>          
+							<li > <a href="http://www.jsswj.com.cn/"  target="_blank" title="江苏水文">江苏水文</a> 
+							</li>          
+							<li > <a href="http://sdswj.wr.shandong.gov.cn"  target="_blank" title="山东水文">山东水文</a> 
+							</li>          
+							<li > <a href="http://qdswj.wr.shandong.gov.cn"  target="_blank" title="青岛市水文局">青岛市水文局</a> 
+							</li>          
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+		<!--center结束-->
+<!--底部友情链接start-->
+<!--bottom开始-->
+<script type="text/javascript" src="/r/cms/jquery.js"></script>
+<script type="text/javascript" src="/r/cms/front.js"></script>
+<script type="text/javascript">
+$(function() {
+	Cms.siteFlow("", location.href, document.referrer, "true");
+	$.cookie("_site_id_cookie","5",{path: '' });
+});
+</script>
+		<div class="bottom clear">
+			<div style="position: absolute;width: 1104px; ">
+				<p class="count">
+	浏览总量：<span id="pv" ></span> |  访客数总量：<span id="visitor" ></span> | 今日浏览总量：<span id="dayPv"></span>  |  今日访客数：<span id="dayVisitor"></span>  
+<!--   	本周浏览总量<span id="weekPv"></span>  |  本周访客数<span id="weekVisitor"></span>|  -->
+<!--   	本月浏览总量<span id="monthPv"></span>  |  本月访客数<span id="monthVisitor"></span> -->
+  	</p> 
+<!-- 				<p>访问量统计|网站声明|网站地图| 旧版回顾</p> -->
+				<p>
+					版权所有：淮河水利委员会水文局&nbsp;&nbsp;主办单位：淮河水利委员会水文局（信息中心）</p>
+				<p>地址：安徽省蚌埠市东海大道3055号
+					&nbsp;&nbsp;邮政编码：233001&nbsp;&nbsp;传真：0552-3093316</p>
+				<p >
+                    	皖ICP备05001041号&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34030002000326" style="color:#1b2f4a"><img src="/r/cms/swj/swj/images/gaba.png" style="width:16px;margin-top: 5px;vertical-align: top;">&nbsp;&nbsp;皖公网安备：34030002000326</a></p>
+				
+			</div>
+			<div style="width: 100px; position: relative;top: 30px;left: 910px;">
+						
+							<a href="http://bszs.conac.cn/sitename?method=show&id=143471D7CD5E25E7E053022819AC94B5"  target="_blank"><img src="/r/cms/swj/swj/images/sydw.png" class="img1 "/></a> 
+						
+			</div>
+
+		</div>
+		<!--bottom结束-->	</div>
+
+</body>
+
+</html>
+<script>
+function switchtishi(path){
+	var queryParams = {};
+	queryParams["path"] = path;
+	$.ajax({
+		url :'/switchtishi.jspx',
+		type : 'post',
+		secureuri : false,
+		dataType : 'json',
+		data : queryParams,
+		success : function(data) {
+			if(data.success==0){
+				window.open(data.url,"_blank");
+			}else{
+				alert("对不起，您没有权限浏览该网页！");
+			}
+		}
+	});
+}
+</script>
+
