@@ -1,0 +1,4 @@
+__pycache__/
+.superpowers/
+data/daily/**/raw/
+
