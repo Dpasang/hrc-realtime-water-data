@@ -24,9 +24,9 @@ class ArchiveTests(unittest.TestCase):
             self.capture(root,17,changed);archive.build(root)
             payload=json.loads((root/'data/2026-10/HRC.json').read_text('utf-8'))
             record=next(value[0] for value in payload.values() if value[0]['station']=='息县')
-            self.assertIsNone(record['water_level_m'])
-            self.assertEqual(record['quality']['water_level_m'],'conflict')
-            self.assertEqual(record['raw_variants']['water_level_m'],[37.09,39.09])
+            self.assertIsNone(record['water_level_value'])
+            self.assertEqual(record['quality']['water_level_value'],'conflict')
+            self.assertEqual(record['raw_variants']['water_level_value'],[37.09,39.09])
 
     def test_observation_month_controls_archive_and_csv_schema_is_fixed(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -4,8 +4,8 @@ import collector
 
 ROOT=pathlib.Path(__file__).resolve().parent
 TZ=collector.TZ
-METRICS=['water_level_m','flow_m3_s','limit_value_number']
-STATION_COLUMNS=['station_key','river','station','observed_at','water_level_m','flow_m3_s',
+METRICS=['water_level_value','flow_value','limit_value_number']
+STATION_COLUMNS=['station_key','river','station','observed_at','water_level_value','flow_value','units','unit_status',
                  'limit_value_raw','limit_value_number','limit_value_semantics','quality','raw_variants',
                  'source_occurrences','first_captured_at','last_captured_at','source_manifests','original_fields']
 MONTH_COLUMNS=['month','station_key','river','station','metric','unit','deduplicated_observations',
@@ -51,6 +51,7 @@ def station_records(root):
     for (key,observed),items in sorted(groups.items()):
         items.sort(key=lambda row:(row['captured_at'],row['_manifest']));last=items[-1]
         row={'station_key':key,'river':last['river'],'station':last['station'],'observed_at':observed,
+             'units':last.get('units',{'water_level_value':None,'flow_value':None}),'unit_status':last.get('unit_status','not_stated_on_page'),
              'limit_value_raw':last.get('limit_value_raw'),'limit_value_semantics':last.get('limit_value_semantics'),
              'quality':{},'raw_variants':{},'source_occurrences':len(items),
              'first_captured_at':items[0]['captured_at'],'last_captured_at':last['captured_at'],
@@ -74,7 +75,7 @@ def monthly_rows(records):
     for row in records:
         month=row['observed_at'][:7]
         for field in METRICS:groups[(month,row['station_key'],field)].append(row)
-    output=[];labels={'water_level_m':('water_level','m'),'flow_m3_s':('flow','m3/s'),'limit_value_number':('below_threshold_difference','m')}
+    output=[];labels={'water_level_value':('water_level',''),'flow_value':('flow',''),'limit_value_number':('below_threshold_difference','')}
     for (month,key,field),items in sorted(groups.items()):
         first=items[0];eligible=[]
         for item in items:

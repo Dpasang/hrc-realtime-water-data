@@ -1,10 +1,13 @@
 {
-  "started_at": "2026-10-27T19:06:03.870098+08:00",
+  "started_at": "2026-10-28T09:20:43.563090+08:00",
   "timezone": "Asia/Shanghai",
   "source_url": "http://www.hrc.gov.cn/swj/",
-  "snapshot_directory": "data/daily/2026-10-27/190603_870098",
+  "scheduled_time": "17:00 Asia/Shanghai",
+  "trigger": "local",
+  "github_run_id": null,
+  "snapshot_directory": "data/daily/2026-10-28/092043_563090",
   "status": "success",
   "rows": 8,
-  "observation_min": "2026-10-27 08:00:00",
-  "observation_max": "2026-10-27 08:00:00"
+  "observation_min": "2026-10-28 08:00:00",
+  "observation_max": "2026-10-28 08:00:00"
 }

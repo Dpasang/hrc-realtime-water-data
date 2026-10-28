@@ -1,58 +1,58 @@
 ﻿month,station_key,river,station,metric,unit,deduplicated_observations,valid_observations,valid_days,sample_mean,sample_min,sample_max,first_value,last_value,conflicts,missing,note
-2020-07,name:上级湖|南阳,上级湖,南阳,flow,m3/s,2,0,0,,,,,,0,2,sample statistics only; no interpolation
-2020-07,name:上级湖|南阳,上级湖,南阳,below_threshold_difference,m,2,2,2,-0.835,-1.16,-0.51,-1.16,-0.51,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:上级湖|南阳,上级湖,南阳,water_level,m,2,2,2,33.364999999999995,33.04,33.69,33.04,33.69,0,0,sample statistics only; no interpolation
-2020-07,name:下级湖|微山岛,下级湖,微山岛,flow,m3/s,2,0,0,,,,,,0,2,sample statistics only; no interpolation
-2020-07,name:下级湖|微山岛,下级湖,微山岛,below_threshold_difference,m,2,2,2,-0.48,-0.82,-0.14,-0.82,-0.14,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:下级湖|微山岛,下级湖,微山岛,water_level,m,2,2,2,32.019999999999996,31.68,32.36,31.68,32.36,0,0,sample statistics only; no interpolation
-2020-07,name:史灌河|蒋家集,史灌河,蒋家集,flow,m3/s,2,2,2,956.0,572.0,1340.0,1340.0,572.0,0,0,sample statistics only; no interpolation
-2020-07,name:史灌河|蒋家集,史灌河,蒋家集,below_threshold_difference,m,2,2,2,-3.05,-4.04,-2.06,-2.06,-4.04,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:史灌河|蒋家集,史灌河,蒋家集,water_level,m,2,2,2,28.950000000000003,27.96,29.94,29.94,27.96,0,0,sample statistics only; no interpolation
-2020-07,name:沂河|临沂,沂河,临沂,flow,m3/s,2,2,2,170.5,50.0,291.0,50.0,291.0,0,0,sample statistics only; no interpolation
-2020-07,name:沂河|临沂,沂河,临沂,below_threshold_difference,m,2,2,2,-6.18,-6.38,-5.98,-6.38,-5.98,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:沂河|临沂,沂河,临沂,water_level,m,2,2,2,57.870000000000005,57.67,58.07,57.67,58.07,0,0,sample statistics only; no interpolation
-2020-07,name:沙颍河|阜阳,沙颍河,阜阳,flow,m3/s,2,2,2,511.5,470.0,553.0,553.0,470.0,0,0,sample statistics only; no interpolation
-2020-07,name:沙颍河|阜阳,沙颍河,阜阳,below_threshold_difference,m,2,2,2,-2.6,-3.23,-1.97,-3.23,-1.97,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:沙颍河|阜阳,沙颍河,阜阳,water_level,m,2,2,2,27.9,27.27,28.53,27.27,28.53,0,0,sample statistics only; no interpolation
-2020-07,name:沭河|人民胜利堰闸,沭河,人民胜利堰闸,flow,m3/s,2,0,0,,,,,,0,2,sample statistics only; no interpolation
-2020-07,name:沭河|人民胜利堰闸,沭河,人民胜利堰闸,below_threshold_difference,m,2,2,2,-2.425,-2.45,-2.4,-2.45,-2.4,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:沭河|人民胜利堰闸,沭河,人民胜利堰闸,water_level,m,2,2,2,50.075,50.05,50.1,50.05,50.1,0,0,sample statistics only; no interpolation
-2020-07,name:沭河|新沭河闸,沭河,新沭河闸,flow,m3/s,2,1,1,221.0,221.0,221.0,221.0,221.0,0,1,sample statistics only; no interpolation
-2020-07,name:沭河|新沭河闸,沭河,新沭河闸,below_threshold_difference,m,2,2,2,-2.425,-2.45,-2.4,-2.45,-2.4,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:沭河|新沭河闸,沭河,新沭河闸,water_level,m,2,2,2,50.075,50.05,50.1,50.05,50.1,0,0,sample statistics only; no interpolation
-2020-07,name:洪汝河|班台,洪汝河,班台,flow,m3/s,2,2,2,518.0,210.0,826.0,210.0,826.0,0,0,sample statistics only; no interpolation
-2020-07,name:洪汝河|班台,洪汝河,班台,below_threshold_difference,m,2,2,2,-2.44,-3.8,-1.08,-3.8,-1.08,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:洪汝河|班台,洪汝河,班台,water_level,m,2,2,2,31.060000000000002,29.7,32.42,29.7,32.42,0,0,sample statistics only; no interpolation
-2020-07,name:洪泽湖|蒋坝,洪泽湖,蒋坝,flow,m3/s,2,2,2,8055.0,7030.0,9080.0,7030.0,9080.0,0,0,sample statistics only; no interpolation
-2020-07,name:洪泽湖|蒋坝,洪泽湖,蒋坝,below_threshold_difference,m,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:洪泽湖|蒋坝,洪泽湖,蒋坝,water_level,m,2,2,2,12.995000000000001,12.57,13.42,12.57,13.42,0,0,sample statistics only; no interpolation
-2020-07,name:涡河|蒙城,涡河,蒙城,flow,m3/s,2,2,2,241.5,238.0,245.0,238.0,245.0,0,0,sample statistics only; no interpolation
-2020-07,name:涡河|蒙城,涡河,蒙城,below_threshold_difference,m,2,2,2,-1.5150000000000001,-1.58,-1.45,-1.58,-1.45,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:涡河|蒙城,涡河,蒙城,water_level,m,2,2,2,24.835,24.77,24.9,24.77,24.9,0,0,sample statistics only; no interpolation
-2020-07,name:淠河|横排头,淠河,横排头,flow,m3/s,2,2,2,522.0,434.0,610.0,610.0,434.0,0,0,sample statistics only; no interpolation
-2020-07,name:淠河|横排头,淠河,横排头,below_threshold_difference,m,2,2,2,-0.615,-0.69,-0.54,-0.54,-0.69,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:淠河|横排头,淠河,横排头,water_level,m,2,2,2,53.385000000000005,53.31,53.46,53.46,53.31,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|临淮岗,淮河,临淮岗,flow,m3/s,2,2,2,5085.0,4230.0,5940.0,5940.0,4230.0,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|临淮岗,淮河,临淮岗,below_threshold_difference,m,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:淮河|临淮岗,淮河,临淮岗,water_level,m,2,2,2,26.4,26.13,26.67,26.67,26.13,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|息县,淮河,息县,flow,m3/s,2,2,2,638.0,386.0,890.0,890.0,386.0,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|息县,淮河,息县,below_threshold_difference,m,2,2,2,-8.245000000000001,-9.56,-6.93,-6.93,-9.56,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:淮河|息县,淮河,息县,water_level,m,2,2,2,33.255,31.94,34.57,34.57,31.94,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|正阳关,淮河,正阳关,flow,m3/s,2,2,2,6915.0,6450.0,7380.0,7380.0,6450.0,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|正阳关,淮河,正阳关,below_threshold_difference,m,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:淮河|正阳关,淮河,正阳关,water_level,m,2,2,2,25.935000000000002,25.73,26.14,26.14,25.73,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|润河集,淮河,润河集,flow,m3/s,2,2,2,5695.0,4000.0,7390.0,7390.0,4000.0,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|润河集,淮河,润河集,below_threshold_difference,m,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:淮河|润河集,淮河,润河集,water_level,m,2,2,2,26.875,26.45,27.3,27.3,26.45,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|王家坝,淮河,王家坝,flow,m3/s,2,2,2,3540.0,2280.0,4800.0,4800.0,2280.0,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|王家坝,淮河,王家坝,below_threshold_difference,m,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:淮河|王家坝,淮河,王家坝,water_level,m,2,2,2,28.189999999999998,27.57,28.81,28.81,27.57,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|蚌埠,淮河,蚌埠,flow,m3/s,2,2,2,7590.0,7590.0,7590.0,7590.0,7590.0,0,0,sample statistics only; no interpolation
-2020-07,name:淮河|蚌埠,淮河,蚌埠,below_threshold_difference,m,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:淮河|蚌埠,淮河,蚌埠,water_level,m,2,2,2,20.765,20.52,21.01,20.52,21.01,0,0,sample statistics only; no interpolation
-2020-07,name:潢河|潢川,潢河,潢川,flow,m3/s,2,2,2,292.5,120.0,465.0,465.0,120.0,0,0,sample statistics only; no interpolation
-2020-07,name:潢河|潢川,潢河,潢川,below_threshold_difference,m,2,2,2,-2.9850000000000003,-3.62,-2.35,-2.35,-3.62,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:潢河|潢川,潢河,潢川,water_level,m,2,2,2,34.815,34.18,35.45,35.45,34.18,0,0,sample statistics only; no interpolation
-2020-07,name:骆马湖|洋河滩,骆马湖,洋河滩,flow,m3/s,2,2,2,642.5,215.0,1070.0,1070.0,215.0,0,0,sample statistics only; no interpolation
-2020-07,name:骆马湖|洋河滩,骆马湖,洋河滩,below_threshold_difference,m,2,2,2,-0.23,-0.4,-0.06,-0.4,-0.06,0,0,only explicit negative differences; positive mixed-column values excluded
-2020-07,name:骆马湖|洋河滩,骆马湖,洋河滩,water_level,m,2,2,2,22.270000000000003,22.1,22.44,22.1,22.44,0,0,sample statistics only; no interpolation
+2020-07,name:上级湖|南阳,上级湖,南阳,flow,,2,0,0,,,,,,0,2,sample statistics only; no interpolation
+2020-07,name:上级湖|南阳,上级湖,南阳,below_threshold_difference,,2,2,2,-0.835,-1.16,-0.51,-1.16,-0.51,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:上级湖|南阳,上级湖,南阳,water_level,,2,2,2,33.364999999999995,33.04,33.69,33.04,33.69,0,0,sample statistics only; no interpolation
+2020-07,name:下级湖|微山岛,下级湖,微山岛,flow,,2,0,0,,,,,,0,2,sample statistics only; no interpolation
+2020-07,name:下级湖|微山岛,下级湖,微山岛,below_threshold_difference,,2,2,2,-0.48,-0.82,-0.14,-0.82,-0.14,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:下级湖|微山岛,下级湖,微山岛,water_level,,2,2,2,32.019999999999996,31.68,32.36,31.68,32.36,0,0,sample statistics only; no interpolation
+2020-07,name:史灌河|蒋家集,史灌河,蒋家集,flow,,2,2,2,956.0,572.0,1340.0,1340.0,572.0,0,0,sample statistics only; no interpolation
+2020-07,name:史灌河|蒋家集,史灌河,蒋家集,below_threshold_difference,,2,2,2,-3.05,-4.04,-2.06,-2.06,-4.04,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:史灌河|蒋家集,史灌河,蒋家集,water_level,,2,2,2,28.950000000000003,27.96,29.94,29.94,27.96,0,0,sample statistics only; no interpolation
+2020-07,name:沂河|临沂,沂河,临沂,flow,,2,2,2,170.5,50.0,291.0,50.0,291.0,0,0,sample statistics only; no interpolation
+2020-07,name:沂河|临沂,沂河,临沂,below_threshold_difference,,2,2,2,-6.18,-6.38,-5.98,-6.38,-5.98,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:沂河|临沂,沂河,临沂,water_level,,2,2,2,57.870000000000005,57.67,58.07,57.67,58.07,0,0,sample statistics only; no interpolation
+2020-07,name:沙颍河|阜阳,沙颍河,阜阳,flow,,2,2,2,511.5,470.0,553.0,553.0,470.0,0,0,sample statistics only; no interpolation
+2020-07,name:沙颍河|阜阳,沙颍河,阜阳,below_threshold_difference,,2,2,2,-2.6,-3.23,-1.97,-3.23,-1.97,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:沙颍河|阜阳,沙颍河,阜阳,water_level,,2,2,2,27.9,27.27,28.53,27.27,28.53,0,0,sample statistics only; no interpolation
+2020-07,name:沭河|人民胜利堰闸,沭河,人民胜利堰闸,flow,,2,0,0,,,,,,0,2,sample statistics only; no interpolation
+2020-07,name:沭河|人民胜利堰闸,沭河,人民胜利堰闸,below_threshold_difference,,2,2,2,-2.425,-2.45,-2.4,-2.45,-2.4,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:沭河|人民胜利堰闸,沭河,人民胜利堰闸,water_level,,2,2,2,50.075,50.05,50.1,50.05,50.1,0,0,sample statistics only; no interpolation
+2020-07,name:沭河|新沭河闸,沭河,新沭河闸,flow,,2,1,1,221.0,221.0,221.0,221.0,221.0,0,1,sample statistics only; no interpolation
+2020-07,name:沭河|新沭河闸,沭河,新沭河闸,below_threshold_difference,,2,2,2,-2.425,-2.45,-2.4,-2.45,-2.4,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:沭河|新沭河闸,沭河,新沭河闸,water_level,,2,2,2,50.075,50.05,50.1,50.05,50.1,0,0,sample statistics only; no interpolation
+2020-07,name:洪汝河|班台,洪汝河,班台,flow,,2,2,2,518.0,210.0,826.0,210.0,826.0,0,0,sample statistics only; no interpolation
+2020-07,name:洪汝河|班台,洪汝河,班台,below_threshold_difference,,2,2,2,-2.44,-3.8,-1.08,-3.8,-1.08,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:洪汝河|班台,洪汝河,班台,water_level,,2,2,2,31.060000000000002,29.7,32.42,29.7,32.42,0,0,sample statistics only; no interpolation
+2020-07,name:洪泽湖|蒋坝,洪泽湖,蒋坝,flow,,2,2,2,8055.0,7030.0,9080.0,7030.0,9080.0,0,0,sample statistics only; no interpolation
+2020-07,name:洪泽湖|蒋坝,洪泽湖,蒋坝,below_threshold_difference,,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:洪泽湖|蒋坝,洪泽湖,蒋坝,water_level,,2,2,2,12.995000000000001,12.57,13.42,12.57,13.42,0,0,sample statistics only; no interpolation
+2020-07,name:涡河|蒙城,涡河,蒙城,flow,,2,2,2,241.5,238.0,245.0,238.0,245.0,0,0,sample statistics only; no interpolation
+2020-07,name:涡河|蒙城,涡河,蒙城,below_threshold_difference,,2,2,2,-1.5150000000000001,-1.58,-1.45,-1.58,-1.45,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:涡河|蒙城,涡河,蒙城,water_level,,2,2,2,24.835,24.77,24.9,24.77,24.9,0,0,sample statistics only; no interpolation
+2020-07,name:淠河|横排头,淠河,横排头,flow,,2,2,2,522.0,434.0,610.0,610.0,434.0,0,0,sample statistics only; no interpolation
+2020-07,name:淠河|横排头,淠河,横排头,below_threshold_difference,,2,2,2,-0.615,-0.69,-0.54,-0.54,-0.69,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:淠河|横排头,淠河,横排头,water_level,,2,2,2,53.385000000000005,53.31,53.46,53.46,53.31,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|临淮岗,淮河,临淮岗,flow,,2,2,2,5085.0,4230.0,5940.0,5940.0,4230.0,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|临淮岗,淮河,临淮岗,below_threshold_difference,,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:淮河|临淮岗,淮河,临淮岗,water_level,,2,2,2,26.4,26.13,26.67,26.67,26.13,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|息县,淮河,息县,flow,,2,2,2,638.0,386.0,890.0,890.0,386.0,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|息县,淮河,息县,below_threshold_difference,,2,2,2,-8.245000000000001,-9.56,-6.93,-6.93,-9.56,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:淮河|息县,淮河,息县,water_level,,2,2,2,33.255,31.94,34.57,34.57,31.94,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|正阳关,淮河,正阳关,flow,,2,2,2,6915.0,6450.0,7380.0,7380.0,6450.0,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|正阳关,淮河,正阳关,below_threshold_difference,,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:淮河|正阳关,淮河,正阳关,water_level,,2,2,2,25.935000000000002,25.73,26.14,26.14,25.73,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|润河集,淮河,润河集,flow,,2,2,2,5695.0,4000.0,7390.0,7390.0,4000.0,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|润河集,淮河,润河集,below_threshold_difference,,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:淮河|润河集,淮河,润河集,water_level,,2,2,2,26.875,26.45,27.3,27.3,26.45,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|王家坝,淮河,王家坝,flow,,2,2,2,3540.0,2280.0,4800.0,4800.0,2280.0,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|王家坝,淮河,王家坝,below_threshold_difference,,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:淮河|王家坝,淮河,王家坝,water_level,,2,2,2,28.189999999999998,27.57,28.81,28.81,27.57,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|蚌埠,淮河,蚌埠,flow,,2,2,2,7590.0,7590.0,7590.0,7590.0,7590.0,0,0,sample statistics only; no interpolation
+2020-07,name:淮河|蚌埠,淮河,蚌埠,below_threshold_difference,,2,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:淮河|蚌埠,淮河,蚌埠,water_level,,2,2,2,20.765,20.52,21.01,20.52,21.01,0,0,sample statistics only; no interpolation
+2020-07,name:潢河|潢川,潢河,潢川,flow,,2,2,2,292.5,120.0,465.0,465.0,120.0,0,0,sample statistics only; no interpolation
+2020-07,name:潢河|潢川,潢河,潢川,below_threshold_difference,,2,2,2,-2.9850000000000003,-3.62,-2.35,-2.35,-3.62,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:潢河|潢川,潢河,潢川,water_level,,2,2,2,34.815,34.18,35.45,35.45,34.18,0,0,sample statistics only; no interpolation
+2020-07,name:骆马湖|洋河滩,骆马湖,洋河滩,flow,,2,2,2,642.5,215.0,1070.0,1070.0,215.0,0,0,sample statistics only; no interpolation
+2020-07,name:骆马湖|洋河滩,骆马湖,洋河滩,below_threshold_difference,,2,2,2,-0.23,-0.4,-0.06,-0.4,-0.06,0,0,only explicit negative differences; positive mixed-column values excluded
+2020-07,name:骆马湖|洋河滩,骆马湖,洋河滩,water_level,,2,2,2,22.270000000000003,22.1,22.44,22.1,22.44,0,0,sample statistics only; no interpolation

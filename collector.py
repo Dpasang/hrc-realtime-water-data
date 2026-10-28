@@ -1,12 +1,12 @@
 """Collect the public realtime water table embedded in the HRC homepage."""
-import csv,datetime,io,json,pathlib,shutil,time,urllib.request,zipfile
+import csv,datetime,io,json,os,pathlib,shutil,time,urllib.request,zipfile
 from html.parser import HTMLParser
 
 ROOT=pathlib.Path(__file__).resolve().parent
 TZ=datetime.timezone(datetime.timedelta(hours=8))
 SOURCE='http://www.hrc.gov.cn/swj/'
 HEADERS=['河流','站名','日期','水位','流量','超警戒/汛限水位']
-CSV_COLUMNS=['river','station','observed_at','water_level_m','flow_m3_s','limit_value_raw',
+CSV_COLUMNS=['river','station','observed_at','water_level_value','water_level_unit','flow_value','flow_unit','unit_status','limit_value_raw',
              'limit_value_number','limit_value_semantics','water_level_quality','flow_quality',
              'captured_at','source_url']
 
@@ -64,9 +64,10 @@ def parse_water_table(html):
         if not river or not station or water_quality!='valid':raise ValueError('Required river, station or water level is invalid')
         output.append({'station_key':'name:'+river+'|'+station,'river':river,'station':station,
                        'observed_at':moment.strftime('%Y-%m-%d %H:%M:%S'),
-                       'water_level_m':water,'flow_m3_s':discharge,'limit_value_raw':limit,
+                       'water_level_value':water,'flow_value':discharge,
+                       'units':{'water_level_value':None,'flow_value':None},'unit_status':'not_stated_on_page','limit_value_raw':limit,
                        **classify_limit_value(limit),
-                       'quality':{'water_level_m':water_quality,'flow_m3_s':flow_quality}})
+                       'quality':{'water_level_value':water_quality,'flow_value':flow_quality}})
     if not output:raise ValueError('Realtime water table is empty')
     return output
 
@@ -81,8 +82,10 @@ def csv_bytes(rows):
     handle=io.StringIO(newline='');writer=csv.DictWriter(handle,fieldnames=CSV_COLUMNS,extrasaction='ignore')
     writer.writeheader()
     for row in rows:
-        writer.writerow({**row,'water_level_quality':row['quality']['water_level_m'],
-                         'flow_quality':row['quality']['flow_m3_s']})
+        writer.writerow({**row,'water_level_unit':row['units']['water_level_value'],
+                         'flow_unit':row['units']['flow_value'],
+                         'water_level_quality':row['quality']['water_level_value'],
+                         'flow_quality':row['quality']['flow_value']})
     return handle.getvalue().encode('utf-8-sig')
 
 def fetch_url(url):
@@ -98,11 +101,20 @@ def fetch_url(url):
             if attempt<2:time.sleep(2**attempt)
     raise RuntimeError('Source download failed: '+str(error))
 
+def pack_evidence(destination,raw):
+    files=sorted(path for path in raw.glob('*') if path.is_file())
+    if not files:return
+    with zipfile.ZipFile(destination/'raw_evidence.zip','w',zipfile.ZIP_DEFLATED) as archive:
+        for path in files:archive.write(path,path.name)
+
 def collect(root=ROOT,fetcher=fetch_url,now=None):
     now=now or datetime.datetime.now(TZ);now=now.astimezone(TZ)
     relative=pathlib.Path('data/daily')/now.strftime('%Y-%m-%d')/now.strftime('%H%M%S_%f')
     destination=root/relative;raw=destination/'raw';raw.mkdir(parents=True,exist_ok=True)
     manifest={'started_at':now.isoformat(),'timezone':'Asia/Shanghai','source_url':SOURCE,
+              'scheduled_time':'17:00 Asia/Shanghai',
+              'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),
+              'github_run_id':os.environ.get('GITHUB_RUN_ID'),
               'snapshot_directory':relative.as_posix(),'status':'failed'}
     try:
         body=fetcher(SOURCE);atomic_bytes(raw/'index.html',body)
@@ -112,14 +124,14 @@ def collect(root=ROOT,fetcher=fetch_url,now=None):
         manifest.update(status='success',rows=len(rows),observation_min=min(row['observed_at'] for row in rows),
                         observation_max=max(row['observed_at'] for row in rows))
         dump_json(destination/'manifest.json',manifest)
-        with zipfile.ZipFile(destination/'raw_evidence.zip','w',zipfile.ZIP_DEFLATED) as archive:
-            archive.write(raw/'index.html','index.html')
+        pack_evidence(destination,raw)
         compatibility=root/'data/latest';compatibility.mkdir(parents=True,exist_ok=True)
         for name in ('water.json','water.csv','manifest.json','raw_evidence.zip'):
             shutil.copyfile(destination/name,compatibility/name)
         dump_json(root/'status/latest_success.json',manifest);dump_json(root/'status/latest_attempt.json',manifest)
         return manifest
     except Exception as error:
+        pack_evidence(destination,raw)
         manifest.update(status='failed',error=str(error));dump_json(destination/'manifest.json',manifest)
         dump_json(root/'status/latest_attempt.json',manifest)
         raise

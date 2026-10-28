@@ -1,35 +1,38 @@
 {
-  "generated_at": "2026-10-27T19:10:30.777976+08:00",
+  "generated_at": "2026-10-28T09:20:45.738848+08:00",
   "archive_build_success": true,
   "schedule": "17:00 Asia/Shanghai (09:00 UTC)",
   "month_directories": 32,
   "station_files": 557,
-  "station_time_records": 659,
+  "station_time_records": 667,
   "monthly_statistic_rows": 1671,
   "last_collection_attempt": {
-    "started_at": "2026-10-27T19:06:03.870098+08:00",
+    "started_at": "2026-10-28T09:20:43.563090+08:00",
     "timezone": "Asia/Shanghai",
     "source_url": "http://www.hrc.gov.cn/swj/",
-    "snapshot_directory": "data/daily/2026-10-27/190603_870098",
+    "scheduled_time": "17:00 Asia/Shanghai",
+    "trigger": "local",
+    "github_run_id": null,
+    "snapshot_directory": "data/daily/2026-10-28/092043_563090",
     "status": "success",
     "rows": 8,
-    "observation_min": "2026-10-27 08:00:00",
-    "observation_max": "2026-10-27 08:00:00"
+    "observation_min": "2026-10-28 08:00:00",
+    "observation_max": "2026-10-28 08:00:00"
   },
   "latest": {
-    "captured_at": "2026-10-27T19:06:03.870098+08:00",
+    "captured_at": "2026-10-28T09:20:43.563090+08:00",
     "timezone": "Asia/Shanghai",
     "source_url": "http://www.hrc.gov.cn/swj/",
-    "source_manifest": "data/daily/2026-10-27/190603_870098/manifest.json",
+    "source_manifest": "data/daily/2026-10-28/092043_563090/manifest.json",
     "row_count": 8,
     "fresh": true,
-    "freshness_as_of": "2026-10-27T19:10:30.777976+08:00",
+    "freshness_as_of": "2026-10-28T09:20:45.738848+08:00",
     "stale_threshold_hours": 48,
     "stale_station_rows": 0,
     "future_station_rows": 0,
     "invalid_time_rows": 0,
-    "observation_min": "2026-10-27T08:00:00+08:00",
-    "observation_max": "2026-10-27T08:00:00+08:00"
+    "observation_min": "2026-10-28T08:00:00+08:00",
+    "observation_max": "2026-10-28T08:00:00+08:00"
   },
   "quality_report": "status/archive_quality.json"
 }
