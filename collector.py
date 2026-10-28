@@ -9,6 +9,7 @@ HEADERS=['河流','站名','日期','水位','流量','超警戒/汛限水位']
 CSV_COLUMNS=['river','station','observed_at','water_level_value','water_level_unit','flow_value','flow_unit','unit_status','limit_value_raw',
              'limit_value_number','limit_value_semantics','water_level_quality','flow_quality',
              'captured_at','source_url']
+CLEAN_COLUMNS=['river','station','observed_at','water_level_value','flow_value']
 
 class Tables(HTMLParser):
     def __init__(self):
@@ -88,6 +89,14 @@ def csv_bytes(rows):
                          'flow_quality':row['quality']['flow_value']})
     return handle.getvalue().encode('utf-8-sig')
 
+def clean_rows(rows):
+    return [{column:row.get(column) for column in CLEAN_COLUMNS} for row in rows]
+
+def clean_csv_bytes(rows):
+    handle=io.StringIO(newline='');writer=csv.DictWriter(handle,fieldnames=CLEAN_COLUMNS,extrasaction='ignore')
+    writer.writeheader();writer.writerows(clean_rows(rows))
+    return handle.getvalue().encode('utf-8-sig')
+
 def fetch_url(url):
     error=None
     for attempt in range(3):
@@ -121,12 +130,13 @@ def collect(root=ROOT,fetcher=fetch_url,now=None):
         rows=parse_water_table(body.decode('utf-8-sig'))
         for row in rows:row.update(captured_at=now.isoformat(),source_url=SOURCE)
         dump_json(destination/'water.json',rows);atomic_bytes(destination/'water.csv',csv_bytes(rows))
+        dump_json(destination/'water_clean.json',clean_rows(rows));atomic_bytes(destination/'water_clean.csv',clean_csv_bytes(rows))
         manifest.update(status='success',rows=len(rows),observation_min=min(row['observed_at'] for row in rows),
                         observation_max=max(row['observed_at'] for row in rows))
         dump_json(destination/'manifest.json',manifest)
         pack_evidence(destination,raw)
         compatibility=root/'data/latest';compatibility.mkdir(parents=True,exist_ok=True)
-        for name in ('water.json','water.csv','manifest.json','raw_evidence.zip'):
+        for name in ('water.json','water.csv','water_clean.json','water_clean.csv','manifest.json','raw_evidence.zip'):
             shutil.copyfile(destination/name,compatibility/name)
         dump_json(root/'status/latest_success.json',manifest);dump_json(root/'status/latest_attempt.json',manifest)
         return manifest

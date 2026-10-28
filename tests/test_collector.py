@@ -1,4 +1,4 @@
-import datetime,json,pathlib,tempfile,unittest
+import csv,datetime,io,json,pathlib,tempfile,unittest
 from unittest.mock import patch
 import collector
 
@@ -53,5 +53,30 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual(manifest['scheduled_time'],'17:00 Asia/Shanghai')
             self.assertEqual(manifest['trigger'],'workflow_dispatch')
             self.assertEqual(manifest['github_run_id'],'123456')
+
+    def test_clean_projection_has_exact_fields_and_blank_missing_flow(self):
+        rows=collector.parse_water_table(FIXTURE.read_text('utf-8'))
+        clean=collector.clean_rows(rows)
+        expected=['river','station','observed_at','water_level_value','flow_value']
+        self.assertEqual(list(clean[0]),expected)
+        zhengyang=next(row for row in clean if row['station']=='正阳关')
+        self.assertIsNone(zhengyang['flow_value'])
+        table=list(csv.DictReader(io.StringIO(collector.clean_csv_bytes(rows).decode('utf-8-sig'))))
+        self.assertEqual(list(table[0]),expected)
+        self.assertEqual(next(row for row in table if row['station']=='正阳关')['flow_value'],'')
+
+    def test_collection_writes_capture_and_data_latest_clean_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=pathlib.Path(directory)
+            manifest=collector.collect(
+                root,
+                fetcher=lambda url:FIXTURE.read_bytes(),
+                now=datetime.datetime(2026,10,28,17,tzinfo=collector.TZ))
+            capture=root/manifest['snapshot_directory']
+            capture_rows=json.loads((capture/'water_clean.json').read_text('utf-8'))
+            latest_rows=json.loads((root/'data/latest/water_clean.json').read_text('utf-8'))
+            self.assertEqual(capture_rows,latest_rows)
+            self.assertTrue((capture/'water_clean.csv').exists())
+            self.assertTrue((root/'data/latest/water_clean.csv').exists())
 
 if __name__=='__main__':unittest.main()
