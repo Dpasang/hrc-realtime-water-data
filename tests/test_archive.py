@@ -27,12 +27,16 @@ class ArchiveTests(unittest.TestCase):
             self.assertIsNone(record['water_level_value'])
             self.assertEqual(record['quality']['water_level_value'],'conflict')
             self.assertEqual(record['raw_variants']['water_level_value'],[37.09,39.09])
+            with (root/'data/2026-10/HRC_clean.csv').open(encoding='utf-8-sig',newline='') as handle:
+                clean=list(csv.DictReader(handle))
+            clean_record=next(row for row in clean if row['station']=='息县')
+            self.assertEqual(clean_record['water_level_value'],'')
 
     def test_observation_month_controls_archive_and_csv_schema_is_fixed(self):
         with tempfile.TemporaryDirectory() as directory:
             root=pathlib.Path(directory);self.capture(root,17);archive.build(root)
             self.assertTrue((root/'data/2026-10/HRC.json').exists())
-            station=next(path for path in (root/'data/2026-10').glob('*.csv') if path.name!='月统计.csv')
+            station=next(path for path in (root/'data/2026-10').glob('*.csv') if path.name not in ('月统计.csv','HRC_clean.csv'))
             with station.open(encoding='utf-8-sig',newline='') as handle:
                 physical=list(csv.reader(handle))
             self.assertTrue(all(len(row)==len(physical[0]) for row in physical[1:]))
@@ -54,5 +58,20 @@ class ArchiveTests(unittest.TestCase):
             self.assertEqual(rows[0]['month'],'2026-10')
             self.assertEqual(rows[0]['station_keys'],'8')
             self.assertEqual(rows[0]['station_time_records'],'8')
+
+    def test_clean_archive_outputs_exact_fields_and_deduplicates(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=pathlib.Path(directory);self.capture(root,9);self.capture(root,17);archive.build(root)
+            expected=['river','station','observed_at','water_level_value','flow_value']
+            with (root/'data/2026-10/HRC_clean.csv').open(encoding='utf-8-sig',newline='') as handle:
+                monthly=list(csv.DictReader(handle))
+            self.assertEqual(len(monthly),8)
+            self.assertEqual(list(monthly[0]),expected)
+            latest=json.loads((root/'latest/clean.json').read_text('utf-8'))
+            self.assertEqual(list(latest[0]),expected)
+            self.assertTrue((root/'latest/clean.csv').exists())
+            daily=root/'snapshots/2026/10/2026-10-27_clean.json'
+            self.assertEqual(list(json.loads(daily.read_text('utf-8'))[0]),expected)
+            self.assertTrue((root/'snapshots/2026/10/2026-10-27_clean.csv').exists())
 
 if __name__=='__main__':unittest.main()

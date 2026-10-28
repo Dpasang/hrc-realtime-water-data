@@ -2,7 +2,7 @@
 
 每天北京时间 **17:00** 从[淮河水利委员会水文局首页](http://www.hrc.gov.cn/swj/)读取“实时水情”表格，由GitHub Actions保存原始页面证据、CSV/JSON、每日快照、分站月序列和月统计。仓库为公有，便于无需登录核验运行状态和下载归档；采集不需要个人电脑保持开机，也不需要额外Cookie或令牌。
 
-[最新成功数据 JSON](latest/data.json) · [最新成功数据 CSV](latest/data.csv) · [最近运行状态](status/latest.json) · [质量报告](status/archive_quality.json) · [自动运行入口](../../actions/workflows/collect.yml)
+[最新 clean JSON](latest/clean.json) · [最新 clean CSV](latest/clean.csv) · [完整 JSON](latest/data.json) · [完整 CSV](latest/data.csv) · [最近运行状态](status/latest.json) · [质量报告](status/archive_quality.json) · [自动运行入口](../../actions/workflows/collect.yml)
 
 [全部月份索引](data/index.csv) · [历史快照核验](history/wayback/README.md)
 
@@ -10,15 +10,22 @@
 
 | 路径 | 内容 |
 |---|---|
-| `data/daily/YYYY-MM-DD/HHMMSS/` | 每次运行的HTML证据、可读CSV/JSON、清单和原始证据压缩包 |
+| `data/daily/YYYY-MM-DD/HHMMSS/` | 每次运行的HTML证据、完整与clean CSV/JSON、清单和原始证据压缩包 |
 | `data/YYYY-MM/HRC.json` | 该观测月按站点组织的时间序列 |
+| `data/YYYY-MM/HRC_clean.csv` | 该观测月去重后的五字段clean长表 |
 | `data/YYYY-MM/河流_站名__哈希.csv` | 固定表头的分站月序列 |
 | `data/YYYY-MM/月统计.csv` | 逐站逐指标的样本统计 |
 | `snapshots/YYYY/MM/YYYY-MM-DD.json/.csv` | 当日最后一次成功抓取 |
+| `snapshots/YYYY/MM/YYYY-MM-DD_clean.json/.csv` | 当日最后一次成功抓取的五字段clean版 |
 | `latest/data.json/.csv` | 最近一次成功抓取；失败运行不会覆盖 |
+| `latest/clean.json/.csv` | 最近一次成功抓取的五字段clean版 |
 | `history/wayback/` | Wayback索引、原始历史页面、已恢复表格及核验结果 |
 
 月目录按页面中的**观测时间**归属，每日快照按实际**采集时间**归档。同站同观测时刻反复抓取只计一次；出现不同有效数值时标记冲突、保留原值变体并从月统计排除，不取平均掩盖冲突。
+
+## Clean数据
+
+clean版严格只包含`river`、`station`、`observed_at`、`water_level_value`、`flow_value`五个字段。空流量在JSON中为`null`、CSV中为空单元格；同站同观测时间的冲突数值也留空，不选择任一版本或计算平均值。clean版用于直接分析，完整版本和原始证据仍用于追溯。
 
 ## 当前公开字段
 

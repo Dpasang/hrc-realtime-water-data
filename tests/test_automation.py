@@ -9,5 +9,7 @@ class AutomationTests(unittest.TestCase):
         self.assertIn('continue-on-error: true',workflow)
         self.assertIn('python archive.py',workflow)
         self.assertIn('git add data snapshots latest status history',workflow)
+        self.assertIn('data/**/HRC_clean.csv',workflow)
+        self.assertIn('snapshots/**/*_clean.*',workflow)
 
 if __name__=='__main__':unittest.main()

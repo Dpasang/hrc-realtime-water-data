@@ -59,6 +59,8 @@ jobs:
             latest/
             status/
             data/**/月统计.csv
+            data/**/HRC_clean.csv
+            snapshots/**/*_clean.*
           if-no-files-found: warn
           retention-days: 30
       - name: Report incomplete collection as failed

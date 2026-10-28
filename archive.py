@@ -116,6 +116,8 @@ def export_daily_views(root,batches,now):
                  'source_manifest':batch['manifest'],'row_count':len(batch['records']),
                  **freshness(batch['records'],captured),'records':batch['records']}
         dump(folder/(day.isoformat()+'.json'),payload);atomic_bytes(folder/(day.isoformat()+'.csv'),batch['csv'].read_bytes())
+        dump(folder/(day.isoformat()+'_clean.json'),collector.clean_rows(batch['records']))
+        atomic_bytes(folder/(day.isoformat()+'_clean.csv'),collector.clean_csv_bytes(batch['records']))
     if not batches:return None
     batch=max(batches,key=lambda item:item['captured_at']);captured=datetime.datetime.fromisoformat(batch['captured_at']).astimezone(TZ)
     payload={'captured_at':captured.isoformat(),'timezone':'Asia/Shanghai','source_url':collector.SOURCE,
@@ -124,6 +126,8 @@ def export_daily_views(root,batches,now):
     current=root/'latest/data.json'
     if current.exists() and datetime.datetime.fromisoformat(read_json(current)['captured_at'])>captured:return read_json(current)
     dump(current,payload);atomic_bytes(root/'latest/data.csv',batch['csv'].read_bytes())
+    dump(root/'latest/clean.json',collector.clean_rows(batch['records']))
+    atomic_bytes(root/'latest/clean.csv',collector.clean_csv_bytes(batch['records']))
     return payload
 
 def build(root=ROOT,now=None):
@@ -138,7 +142,8 @@ def build(root=ROOT,now=None):
         for key,items in sorted(stations.items()):
             items.sort(key=lambda row:row['observed_at']);name=filename(items[0]);relative=(folder/name).relative_to(root).as_posix()
             mapping['./'+relative]=items;write_csv(folder/(name+'.csv'),items,STATION_COLUMNS)
-        dump(folder/'HRC.json',mapping);stats=[row for row in monthly if row['month']==month];write_csv(folder/'月统计.csv',stats,MONTH_COLUMNS)
+        dump(folder/'HRC.json',mapping);write_csv(folder/'HRC_clean.csv',collector.clean_rows(rows),collector.CLEAN_COLUMNS)
+        stats=[row for row in monthly if row['month']==month];write_csv(folder/'月统计.csv',stats,MONTH_COLUMNS)
         manifest={'month':month,'station_keys':len(stations),'station_time_records':len(rows),'monthly_statistic_rows':len(stats),'csv_columns':STATION_COLUMNS}
         dump(folder/'manifest.json',manifest);index.append(manifest)
     write_csv(root/'data/index.csv',index,['month','station_keys','station_time_records','monthly_statistic_rows'])
