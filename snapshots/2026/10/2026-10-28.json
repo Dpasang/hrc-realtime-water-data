@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-28T09:34:10.753424+08:00",
+  "captured_at": "2026-10-28T09:35:54.676212+08:00",
   "timezone": "Asia/Shanghai",
   "source_url": "http://www.hrc.gov.cn/swj/",
-  "source_manifest": "data/daily/2026-10-28/093410_753424/manifest.json",
+  "source_manifest": "data/daily/2026-10-28/093554_676212/manifest.json",
   "row_count": 8,
   "fresh": true,
-  "freshness_as_of": "2026-10-28T09:34:10.753424+08:00",
+  "freshness_as_of": "2026-10-28T09:35:54.676212+08:00",
   "stale_threshold_hours": 48,
   "stale_station_rows": 0,
   "future_station_rows": 0,
@@ -32,7 +32,7 @@
         "water_level_value": "valid",
         "flow_value": "valid"
       },
-      "captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
@@ -54,7 +54,7 @@
         "water_level_value": "valid",
         "flow_value": "valid"
       },
-      "captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
@@ -76,7 +76,7 @@
         "water_level_value": "valid",
         "flow_value": "missing"
       },
-      "captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
@@ -98,7 +98,7 @@
         "water_level_value": "valid",
         "flow_value": "valid"
       },
-      "captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
@@ -120,7 +120,7 @@
         "water_level_value": "valid",
         "flow_value": "missing"
       },
-      "captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
@@ -142,7 +142,7 @@
         "water_level_value": "valid",
         "flow_value": "valid"
       },
-      "captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
@@ -164,7 +164,7 @@
         "water_level_value": "valid",
         "flow_value": "missing"
       },
-      "captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
@@ -186,7 +186,7 @@
         "water_level_value": "valid",
         "flow_value": "missing"
       },
-      "captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     }
   ]

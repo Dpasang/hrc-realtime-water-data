@@ -85,14 +85,15 @@
           32.2
         ]
       },
-      "source_occurrences": 4,
+      "source_occurrences": 5,
       "first_captured_at": "2026-10-28T09:20:43.563090+08:00",
-      "last_captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "last_captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_manifests": [
         "data/daily/2026-10-28/092043_563090/manifest.json",
         "data/daily/2026-10-28/092442_847129/manifest.json",
         "data/daily/2026-10-28/093004_706086/manifest.json",
-        "data/daily/2026-10-28/093410_753424/manifest.json"
+        "data/daily/2026-10-28/093410_753424/manifest.json",
+        "data/daily/2026-10-28/093554_676212/manifest.json"
       ],
       "original_fields": {
         "station_key": "name:下级湖|微山",
@@ -113,7 +114,7 @@
           "water_level_value": "valid",
           "flow_value": "missing"
         },
-        "captured_at": "2026-10-28T09:34:10.753424+08:00",
+        "captured_at": "2026-10-28T09:35:54.676212+08:00",
         "source_url": "http://www.hrc.gov.cn/swj/"
       },
       "water_level_value": 32.2,
@@ -211,14 +212,15 @@
           -3.78
         ]
       },
-      "source_occurrences": 4,
+      "source_occurrences": 5,
       "first_captured_at": "2026-10-28T09:20:43.563090+08:00",
-      "last_captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "last_captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_manifests": [
         "data/daily/2026-10-28/092043_563090/manifest.json",
         "data/daily/2026-10-28/092442_847129/manifest.json",
         "data/daily/2026-10-28/093004_706086/manifest.json",
-        "data/daily/2026-10-28/093410_753424/manifest.json"
+        "data/daily/2026-10-28/093410_753424/manifest.json",
+        "data/daily/2026-10-28/093554_676212/manifest.json"
       ],
       "original_fields": {
         "station_key": "name:沂河|临沂",
@@ -239,7 +241,7 @@
           "water_level_value": "valid",
           "flow_value": "valid"
         },
-        "captured_at": "2026-10-28T09:34:10.753424+08:00",
+        "captured_at": "2026-10-28T09:35:54.676212+08:00",
         "source_url": "http://www.hrc.gov.cn/swj/"
       },
       "water_level_value": 60.27,
@@ -333,14 +335,15 @@
           13.5
         ]
       },
-      "source_occurrences": 4,
+      "source_occurrences": 5,
       "first_captured_at": "2026-10-28T09:20:43.563090+08:00",
-      "last_captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "last_captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_manifests": [
         "data/daily/2026-10-28/092043_563090/manifest.json",
         "data/daily/2026-10-28/092442_847129/manifest.json",
         "data/daily/2026-10-28/093004_706086/manifest.json",
-        "data/daily/2026-10-28/093410_753424/manifest.json"
+        "data/daily/2026-10-28/093410_753424/manifest.json",
+        "data/daily/2026-10-28/093554_676212/manifest.json"
       ],
       "original_fields": {
         "station_key": "name:洪泽湖|蒋坝",
@@ -361,7 +364,7 @@
           "water_level_value": "valid",
           "flow_value": "missing"
         },
-        "captured_at": "2026-10-28T09:34:10.753424+08:00",
+        "captured_at": "2026-10-28T09:35:54.676212+08:00",
         "source_url": "http://www.hrc.gov.cn/swj/"
       },
       "water_level_value": 13.5,
@@ -459,14 +462,15 @@
           -4.34
         ]
       },
-      "source_occurrences": 4,
+      "source_occurrences": 5,
       "first_captured_at": "2026-10-28T09:20:43.563090+08:00",
-      "last_captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "last_captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_manifests": [
         "data/daily/2026-10-28/092043_563090/manifest.json",
         "data/daily/2026-10-28/092442_847129/manifest.json",
         "data/daily/2026-10-28/093004_706086/manifest.json",
-        "data/daily/2026-10-28/093410_753424/manifest.json"
+        "data/daily/2026-10-28/093410_753424/manifest.json",
+        "data/daily/2026-10-28/093554_676212/manifest.json"
       ],
       "original_fields": {
         "station_key": "name:淮河|息县",
@@ -487,7 +491,7 @@
           "water_level_value": "valid",
           "flow_value": "valid"
         },
-        "captured_at": "2026-10-28T09:34:10.753424+08:00",
+        "captured_at": "2026-10-28T09:35:54.676212+08:00",
         "source_url": "http://www.hrc.gov.cn/swj/"
       },
       "water_level_value": 37.16,
@@ -581,14 +585,15 @@
           -5.54
         ]
       },
-      "source_occurrences": 4,
+      "source_occurrences": 5,
       "first_captured_at": "2026-10-28T09:20:43.563090+08:00",
-      "last_captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "last_captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_manifests": [
         "data/daily/2026-10-28/092043_563090/manifest.json",
         "data/daily/2026-10-28/092442_847129/manifest.json",
         "data/daily/2026-10-28/093004_706086/manifest.json",
-        "data/daily/2026-10-28/093410_753424/manifest.json"
+        "data/daily/2026-10-28/093410_753424/manifest.json",
+        "data/daily/2026-10-28/093554_676212/manifest.json"
       ],
       "original_fields": {
         "station_key": "name:淮河|正阳关",
@@ -609,7 +614,7 @@
           "water_level_value": "valid",
           "flow_value": "missing"
         },
-        "captured_at": "2026-10-28T09:34:10.753424+08:00",
+        "captured_at": "2026-10-28T09:35:54.676212+08:00",
         "source_url": "http://www.hrc.gov.cn/swj/"
       },
       "water_level_value": 18.46,
@@ -707,14 +712,15 @@
           -5.64
         ]
       },
-      "source_occurrences": 4,
+      "source_occurrences": 5,
       "first_captured_at": "2026-10-28T09:20:43.563090+08:00",
-      "last_captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "last_captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_manifests": [
         "data/daily/2026-10-28/092043_563090/manifest.json",
         "data/daily/2026-10-28/092442_847129/manifest.json",
         "data/daily/2026-10-28/093004_706086/manifest.json",
-        "data/daily/2026-10-28/093410_753424/manifest.json"
+        "data/daily/2026-10-28/093410_753424/manifest.json",
+        "data/daily/2026-10-28/093554_676212/manifest.json"
       ],
       "original_fields": {
         "station_key": "name:淮河|王家坝",
@@ -735,7 +741,7 @@
           "water_level_value": "valid",
           "flow_value": "valid"
         },
-        "captured_at": "2026-10-28T09:34:10.753424+08:00",
+        "captured_at": "2026-10-28T09:35:54.676212+08:00",
         "source_url": "http://www.hrc.gov.cn/swj/"
       },
       "water_level_value": 21.86,
@@ -833,14 +839,15 @@
           -5.84
         ]
       },
-      "source_occurrences": 4,
+      "source_occurrences": 5,
       "first_captured_at": "2026-10-28T09:20:43.563090+08:00",
-      "last_captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "last_captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_manifests": [
         "data/daily/2026-10-28/092043_563090/manifest.json",
         "data/daily/2026-10-28/092442_847129/manifest.json",
         "data/daily/2026-10-28/093004_706086/manifest.json",
-        "data/daily/2026-10-28/093410_753424/manifest.json"
+        "data/daily/2026-10-28/093410_753424/manifest.json",
+        "data/daily/2026-10-28/093554_676212/manifest.json"
       ],
       "original_fields": {
         "station_key": "name:淮河|蚌埠（吴家渡）",
@@ -861,7 +868,7 @@
           "water_level_value": "valid",
           "flow_value": "valid"
         },
-        "captured_at": "2026-10-28T09:34:10.753424+08:00",
+        "captured_at": "2026-10-28T09:35:54.676212+08:00",
         "source_url": "http://www.hrc.gov.cn/swj/"
       },
       "water_level_value": 14.46,
@@ -955,14 +962,15 @@
           22.8
         ]
       },
-      "source_occurrences": 4,
+      "source_occurrences": 5,
       "first_captured_at": "2026-10-28T09:20:43.563090+08:00",
-      "last_captured_at": "2026-10-28T09:34:10.753424+08:00",
+      "last_captured_at": "2026-10-28T09:35:54.676212+08:00",
       "source_manifests": [
         "data/daily/2026-10-28/092043_563090/manifest.json",
         "data/daily/2026-10-28/092442_847129/manifest.json",
         "data/daily/2026-10-28/093004_706086/manifest.json",
-        "data/daily/2026-10-28/093410_753424/manifest.json"
+        "data/daily/2026-10-28/093410_753424/manifest.json",
+        "data/daily/2026-10-28/093554_676212/manifest.json"
       ],
       "original_fields": {
         "station_key": "name:骆马湖|杨河滩闸",
@@ -983,7 +991,7 @@
           "water_level_value": "valid",
           "flow_value": "missing"
         },
-        "captured_at": "2026-10-28T09:34:10.753424+08:00",
+        "captured_at": "2026-10-28T09:35:54.676212+08:00",
         "source_url": "http://www.hrc.gov.cn/swj/"
       },
       "water_level_value": 22.8,

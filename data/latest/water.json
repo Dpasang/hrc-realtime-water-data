@@ -18,7 +18,7 @@
       "water_level_value": "valid",
       "flow_value": "valid"
     },
-    "captured_at": "2026-10-28T09:34:10.753424+08:00",
+    "captured_at": "2026-10-28T09:35:54.676212+08:00",
     "source_url": "http://www.hrc.gov.cn/swj/"
   },
   {
@@ -40,7 +40,7 @@
       "water_level_value": "valid",
       "flow_value": "valid"
     },
-    "captured_at": "2026-10-28T09:34:10.753424+08:00",
+    "captured_at": "2026-10-28T09:35:54.676212+08:00",
     "source_url": "http://www.hrc.gov.cn/swj/"
   },
   {
@@ -62,7 +62,7 @@
       "water_level_value": "valid",
       "flow_value": "missing"
     },
-    "captured_at": "2026-10-28T09:34:10.753424+08:00",
+    "captured_at": "2026-10-28T09:35:54.676212+08:00",
     "source_url": "http://www.hrc.gov.cn/swj/"
   },
   {
@@ -84,7 +84,7 @@
       "water_level_value": "valid",
       "flow_value": "valid"
     },
-    "captured_at": "2026-10-28T09:34:10.753424+08:00",
+    "captured_at": "2026-10-28T09:35:54.676212+08:00",
     "source_url": "http://www.hrc.gov.cn/swj/"
   },
   {
@@ -106,7 +106,7 @@
       "water_level_value": "valid",
       "flow_value": "missing"
     },
-    "captured_at": "2026-10-28T09:34:10.753424+08:00",
+    "captured_at": "2026-10-28T09:35:54.676212+08:00",
     "source_url": "http://www.hrc.gov.cn/swj/"
   },
   {
@@ -128,7 +128,7 @@
       "water_level_value": "valid",
       "flow_value": "valid"
     },
-    "captured_at": "2026-10-28T09:34:10.753424+08:00",
+    "captured_at": "2026-10-28T09:35:54.676212+08:00",
     "source_url": "http://www.hrc.gov.cn/swj/"
   },
   {
@@ -150,7 +150,7 @@
       "water_level_value": "valid",
       "flow_value": "missing"
     },
-    "captured_at": "2026-10-28T09:34:10.753424+08:00",
+    "captured_at": "2026-10-28T09:35:54.676212+08:00",
     "source_url": "http://www.hrc.gov.cn/swj/"
   },
   {
@@ -172,7 +172,7 @@
       "water_level_value": "valid",
       "flow_value": "missing"
     },
-    "captured_at": "2026-10-28T09:34:10.753424+08:00",
+    "captured_at": "2026-10-28T09:35:54.676212+08:00",
     "source_url": "http://www.hrc.gov.cn/swj/"
   }
 ]
