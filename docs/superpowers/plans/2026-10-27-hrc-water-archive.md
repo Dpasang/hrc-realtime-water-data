@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build and deploy a private daily archive for the HRC homepage realtime water table.
+**Goal:** Build and deploy a public daily archive for the HRC homepage realtime water table.
 
 **Architecture:** A standard-library HTML parser extracts the table by exact headers. The collector saves immutable evidence and validated rows; a separate archive builder deduplicates station-times into monthly station files and status views.
 
@@ -14,7 +14,7 @@
 
 - Source: `http://www.hrc.gov.cn/swj/`.
 - Daily schedule: 17:00 Asia/Shanghai / 09:00 UTC.
-- Private GitHub repository under `Dpasang`.
+- Public GitHub repository under `Dpasang` so runs and archived data can be inspected without authentication.
 - Preserve source evidence, observation time, missing values, raw mixed-semantics column and conflicts.
 - Failed runs never replace latest successful data.
 
@@ -60,5 +60,5 @@
 - [ ] Run tests and verify expected failures.
 - [ ] Implement historical recovery and evidence manifest.
 - [ ] Add workflow and user documentation; run current collection, archive build and full verification.
-- [ ] Commit, create/push the private repository, dispatch a cloud run, and verify remote artifacts.
+- [x] Commit, create/push the public repository, dispatch a cloud run, and verify remote artifacts.
 

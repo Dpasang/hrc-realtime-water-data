@@ -1,6 +1,6 @@
 # 淮河实时水情每日归档
 
-每天北京时间 **17:00** 从[淮河水利委员会水文局首页](http://www.hrc.gov.cn/swj/)读取“实时水情”表格，由GitHub Actions保存原始页面证据、CSV/JSON、每日快照、分站月序列和月统计。仓库为私有，不需要个人电脑保持开机，也不需要额外Cookie或令牌。
+每天北京时间 **17:00** 从[淮河水利委员会水文局首页](http://www.hrc.gov.cn/swj/)读取“实时水情”表格，由GitHub Actions保存原始页面证据、CSV/JSON、每日快照、分站月序列和月统计。仓库为公有，便于无需登录核验运行状态和下载归档；采集不需要个人电脑保持开机，也不需要额外Cookie或令牌。
 
 [最新成功数据 JSON](latest/data.json) · [最新成功数据 CSV](latest/data.csv) · [最近运行状态](status/latest.json) · [质量报告](status/archive_quality.json) · [自动运行入口](../../actions/workflows/collect.yml)
 
