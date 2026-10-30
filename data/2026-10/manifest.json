@@ -1,7 +1,7 @@
 {
   "month": "2026-10",
   "station_keys": 8,
-  "station_time_records": 24,
+  "station_time_records": 32,
   "monthly_statistic_rows": 24,
   "csv_columns": [
     "station_key",
