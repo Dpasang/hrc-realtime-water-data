@@ -2,57 +2,57 @@
   {
     "river": "淮河",
     "station": "息县",
-    "observed_at": "2026-10-31 08:00:00",
-    "water_level_value": 37.23,
-    "flow_value": 69.3
+    "observed_at": "2026-11-01 08:00:00",
+    "water_level_value": 37.2,
+    "flow_value": 69.0
   },
   {
     "river": "淮河",
     "station": "王家坝",
-    "observed_at": "2026-10-31 08:00:00",
-    "water_level_value": 21.86,
-    "flow_value": 310.0
+    "observed_at": "2026-11-01 08:00:00",
+    "water_level_value": 21.84,
+    "flow_value": 308.0
   },
   {
     "river": "淮河",
     "station": "正阳关",
-    "observed_at": "2026-10-31 08:00:00",
-    "water_level_value": 18.31,
+    "observed_at": "2026-11-01 08:00:00",
+    "water_level_value": 18.48,
     "flow_value": null
   },
   {
     "river": "淮河",
     "station": "蚌埠（吴家渡）",
-    "observed_at": "2026-10-31 08:00:00",
-    "water_level_value": 13.91,
-    "flow_value": 882.0
+    "observed_at": "2026-11-01 08:00:00",
+    "water_level_value": 13.87,
+    "flow_value": 1190.0
   },
   {
     "river": "洪泽湖",
     "station": "蒋坝",
-    "observed_at": "2026-10-31 08:00:00",
-    "water_level_value": 13.52,
+    "observed_at": "2026-11-01 08:00:00",
+    "water_level_value": 13.47,
     "flow_value": null
   },
   {
     "river": "沂河",
     "station": "临沂",
-    "observed_at": "2026-10-31 08:00:00",
-    "water_level_value": 60.27,
-    "flow_value": 24.0
+    "observed_at": "2026-11-01 08:00:00",
+    "water_level_value": 60.3,
+    "flow_value": 30.4
   },
   {
     "river": "下级湖",
     "station": "微山",
-    "observed_at": "2026-10-31 08:00:00",
-    "water_level_value": 32.23,
+    "observed_at": "2026-11-01 08:00:00",
+    "water_level_value": 32.25,
     "flow_value": null
   },
   {
     "river": "骆马湖",
     "station": "杨河滩闸",
-    "observed_at": "2026-10-31 08:00:00",
-    "water_level_value": 22.91,
+    "observed_at": "2026-11-01 08:00:00",
+    "water_level_value": 22.98,
     "flow_value": null
   }
 ]
