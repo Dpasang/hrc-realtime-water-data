@@ -1,0 +1,9 @@
+﻿river,station,observed_at,water_level_value,water_level_unit,flow_value,flow_unit,unit_status,limit_value_raw,limit_value_number,limit_value_semantics,water_level_quality,flow_quality,captured_at,source_url
+淮河,息县,2026-11-07 08:00:00,37.56,,163.0,,not_stated_on_page,-3.94,-3.94,difference_below_threshold,valid,valid,2026-11-07T23:36:13.903783+08:00,http://www.hrc.gov.cn/swj/
+淮河,王家坝,2026-11-07 08:00:00,22.05,,306.0,,not_stated_on_page,-5.45,-5.45,difference_below_threshold,valid,valid,2026-11-07T23:36:13.903783+08:00,http://www.hrc.gov.cn/swj/
+淮河,正阳关,2026-11-07 08:00:00,18.45,,,,not_stated_on_page,-5.55,-5.55,difference_below_threshold,valid,missing,2026-11-07T23:36:13.903783+08:00,http://www.hrc.gov.cn/swj/
+淮河,蚌埠（吴家渡）,2026-11-07 08:00:00,14.05,,972.0,,not_stated_on_page,-6.25,-6.25,difference_below_threshold,valid,valid,2026-11-07T23:36:13.903783+08:00,http://www.hrc.gov.cn/swj/
+洪泽湖,蒋坝,2026-11-07 08:00:00,13.44,,,,not_stated_on_page,13.44,13.44,positive_value_semantics_unconfirmed,valid,missing,2026-11-07T23:36:13.903783+08:00,http://www.hrc.gov.cn/swj/
+沂河,临沂,2026-11-07 08:00:00,59.98,,34.8,,not_stated_on_page,-4.07,-4.07,difference_below_threshold,valid,valid,2026-11-07T23:36:13.903783+08:00,http://www.hrc.gov.cn/swj/
+下级湖,微山,2026-11-07 08:00:00,32.28,,,,not_stated_on_page,32.28,32.28,positive_value_semantics_unconfirmed,valid,missing,2026-11-07T23:36:13.903783+08:00,http://www.hrc.gov.cn/swj/
+骆马湖,杨河滩闸,2026-11-07 08:00:00,23.06,,,,not_stated_on_page,23.06,23.06,positive_value_semantics_unconfirmed,valid,missing,2026-11-07T23:36:13.903783+08:00,http://www.hrc.gov.cn/swj/
