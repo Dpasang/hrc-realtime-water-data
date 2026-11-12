@@ -1,25 +1,25 @@
 ﻿month,station_key,river,station,metric,unit,deduplicated_observations,valid_observations,valid_days,sample_mean,sample_min,sample_max,first_value,last_value,conflicts,missing,note
-2026-11,name:下级湖|微山,下级湖,微山,flow,,11,0,0,,,,,,0,11,sample statistics only; no interpolation
-2026-11,name:下级湖|微山,下级湖,微山,below_threshold_difference,,11,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
-2026-11,name:下级湖|微山,下级湖,微山,water_level,,11,11,11,32.28363636363636,32.25,32.32,32.25,32.32,0,0,sample statistics only; no interpolation
-2026-11,name:沂河|临沂,沂河,临沂,flow,,11,11,11,51.872727272727275,30.4,75.0,30.4,60.4,0,0,sample statistics only; no interpolation
-2026-11,name:沂河|临沂,沂河,临沂,below_threshold_difference,,11,11,11,-3.9036363636363633,-4.1,-3.71,-3.75,-3.85,0,0,only explicit negative differences; positive mixed-column values excluded
-2026-11,name:沂河|临沂,沂河,临沂,water_level,,11,11,11,60.14636363636364,59.95,60.34,60.3,60.2,0,0,sample statistics only; no interpolation
-2026-11,name:洪泽湖|蒋坝,洪泽湖,蒋坝,flow,,11,0,0,,,,,,0,11,sample statistics only; no interpolation
-2026-11,name:洪泽湖|蒋坝,洪泽湖,蒋坝,below_threshold_difference,,11,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
-2026-11,name:洪泽湖|蒋坝,洪泽湖,蒋坝,water_level,,11,11,11,13.52727272727273,13.44,13.77,13.47,13.57,0,0,sample statistics only; no interpolation
-2026-11,name:淮河|息县,淮河,息县,flow,,11,11,11,112.39090909090909,21.6,163.0,69.0,139.0,0,0,sample statistics only; no interpolation
-2026-11,name:淮河|息县,淮河,息县,below_threshold_difference,,11,11,11,-4.179090909090909,-4.48,-3.84,-4.3,-4.39,0,0,only explicit negative differences; positive mixed-column values excluded
-2026-11,name:淮河|息县,淮河,息县,water_level,,11,11,11,37.32090909090909,37.02,37.66,37.2,37.11,0,0,sample statistics only; no interpolation
-2026-11,name:淮河|正阳关,淮河,正阳关,flow,,11,0,0,,,,,,0,11,sample statistics only; no interpolation
-2026-11,name:淮河|正阳关,淮河,正阳关,below_threshold_difference,,11,11,11,-5.529090909090909,-5.65,-5.41,-5.52,-5.58,0,0,only explicit negative differences; positive mixed-column values excluded
-2026-11,name:淮河|正阳关,淮河,正阳关,water_level,,11,11,11,18.470909090909092,18.35,18.59,18.48,18.42,0,0,sample statistics only; no interpolation
-2026-11,name:淮河|王家坝,淮河,王家坝,flow,,11,11,11,279.54545454545456,220.0,330.0,308.0,280.0,0,0,sample statistics only; no interpolation
-2026-11,name:淮河|王家坝,淮河,王家坝,below_threshold_difference,,11,11,11,-5.556363636363636,-5.69,-5.43,-5.66,-5.56,0,0,only explicit negative differences; positive mixed-column values excluded
-2026-11,name:淮河|王家坝,淮河,王家坝,water_level,,11,11,11,21.94363636363636,21.81,22.07,21.84,21.94,0,0,sample statistics only; no interpolation
-2026-11,name:淮河|蚌埠（吴家渡）,淮河,蚌埠（吴家渡）,flow,,11,11,11,1076.6363636363637,915.0,1250.0,1190.0,1100.0,0,0,sample statistics only; no interpolation
-2026-11,name:淮河|蚌埠（吴家渡）,淮河,蚌埠（吴家渡）,below_threshold_difference,,11,11,11,-6.283636363636364,-6.43,-6.07,-6.43,-6.31,0,0,only explicit negative differences; positive mixed-column values excluded
-2026-11,name:淮河|蚌埠（吴家渡）,淮河,蚌埠（吴家渡）,water_level,,11,11,11,14.016363636363637,13.87,14.23,13.87,13.99,0,0,sample statistics only; no interpolation
-2026-11,name:骆马湖|杨河滩闸,骆马湖,杨河滩闸,flow,,11,0,0,,,,,,0,11,sample statistics only; no interpolation
-2026-11,name:骆马湖|杨河滩闸,骆马湖,杨河滩闸,below_threshold_difference,,11,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
-2026-11,name:骆马湖|杨河滩闸,骆马湖,杨河滩闸,water_level,,11,11,11,23.07090909090909,22.98,23.15,22.98,23.09,0,0,sample statistics only; no interpolation
+2026-11,name:下级湖|微山,下级湖,微山,flow,,12,0,0,,,,,,0,12,sample statistics only; no interpolation
+2026-11,name:下级湖|微山,下级湖,微山,below_threshold_difference,,12,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
+2026-11,name:下级湖|微山,下级湖,微山,water_level,,12,12,12,32.28666666666667,32.25,32.32,32.25,32.32,0,0,sample statistics only; no interpolation
+2026-11,name:沂河|临沂,沂河,临沂,flow,,12,12,12,52.583333333333336,30.4,75.0,30.4,60.4,0,0,sample statistics only; no interpolation
+2026-11,name:沂河|临沂,沂河,临沂,below_threshold_difference,,12,12,12,-3.8966666666666665,-4.1,-3.71,-3.75,-3.82,0,0,only explicit negative differences; positive mixed-column values excluded
+2026-11,name:沂河|临沂,沂河,临沂,water_level,,12,12,12,60.153333333333336,59.95,60.34,60.3,60.23,0,0,sample statistics only; no interpolation
+2026-11,name:洪泽湖|蒋坝,洪泽湖,蒋坝,flow,,12,0,0,,,,,,0,12,sample statistics only; no interpolation
+2026-11,name:洪泽湖|蒋坝,洪泽湖,蒋坝,below_threshold_difference,,12,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
+2026-11,name:洪泽湖|蒋坝,洪泽湖,蒋坝,water_level,,12,12,12,13.529166666666667,13.44,13.77,13.47,13.55,0,0,sample statistics only; no interpolation
+2026-11,name:淮河|息县,淮河,息县,flow,,12,12,12,114.27499999999999,21.6,163.0,69.0,135.0,0,0,sample statistics only; no interpolation
+2026-11,name:淮河|息县,淮河,息县,below_threshold_difference,,12,12,12,-4.2175,-4.64,-3.84,-4.3,-4.64,0,0,only explicit negative differences; positive mixed-column values excluded
+2026-11,name:淮河|息县,淮河,息县,water_level,,12,12,12,37.2825,36.86,37.66,37.2,36.86,0,0,sample statistics only; no interpolation
+2026-11,name:淮河|正阳关,淮河,正阳关,flow,,12,0,0,,,,,,0,12,sample statistics only; no interpolation
+2026-11,name:淮河|正阳关,淮河,正阳关,below_threshold_difference,,12,12,12,-5.525833333333334,-5.65,-5.41,-5.52,-5.49,0,0,only explicit negative differences; positive mixed-column values excluded
+2026-11,name:淮河|正阳关,淮河,正阳关,water_level,,12,12,12,18.474166666666665,18.35,18.59,18.48,18.51,0,0,sample statistics only; no interpolation
+2026-11,name:淮河|王家坝,淮河,王家坝,flow,,12,12,12,281.0833333333333,220.0,330.0,308.0,298.0,0,0,sample statistics only; no interpolation
+2026-11,name:淮河|王家坝,淮河,王家坝,below_threshold_difference,,12,12,12,-5.555833333333333,-5.69,-5.43,-5.66,-5.55,0,0,only explicit negative differences; positive mixed-column values excluded
+2026-11,name:淮河|王家坝,淮河,王家坝,water_level,,12,12,12,21.944166666666664,21.81,22.07,21.84,21.95,0,0,sample statistics only; no interpolation
+2026-11,name:淮河|蚌埠（吴家渡）,淮河,蚌埠（吴家渡）,flow,,12,12,12,1076.9166666666667,915.0,1250.0,1190.0,1080.0,0,0,sample statistics only; no interpolation
+2026-11,name:淮河|蚌埠（吴家渡）,淮河,蚌埠（吴家渡）,below_threshold_difference,,12,12,12,-6.2875000000000005,-6.43,-6.07,-6.43,-6.33,0,0,only explicit negative differences; positive mixed-column values excluded
+2026-11,name:淮河|蚌埠（吴家渡）,淮河,蚌埠（吴家渡）,water_level,,12,12,12,14.012500000000001,13.87,14.23,13.87,13.97,0,0,sample statistics only; no interpolation
+2026-11,name:骆马湖|杨河滩闸,骆马湖,杨河滩闸,flow,,12,0,0,,,,,,0,12,sample statistics only; no interpolation
+2026-11,name:骆马湖|杨河滩闸,骆马湖,杨河滩闸,below_threshold_difference,,12,0,0,,,,,,0,0,only explicit negative differences; positive mixed-column values excluded
+2026-11,name:骆马湖|杨河滩闸,骆马湖,杨河滩闸,water_level,,12,12,12,23.074166666666667,22.98,23.15,22.98,23.11,0,0,sample statistics only; no interpolation
