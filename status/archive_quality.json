@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T03:28:56.375212+08:00",
+  "generated_at": "2026-11-18T02:23:54.643550+08:00",
   "archive_build_success": true,
   "metric_status_counts": {
-    "valid": 2087,
-    "missing": 370
+    "valid": 2107,
+    "missing": 374
   },
-  "source_batches": 63,
-  "station_time_records": 819,
+  "source_batches": 64,
+  "station_time_records": 827,
   "mixed_column_policy": "negative values are differences; non-negative semantics remain unconfirmed"
 }
