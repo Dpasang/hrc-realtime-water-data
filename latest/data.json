@@ -1,192 +1,192 @@
 {
-  "captured_at": "2026-11-20T02:08:40.183590+08:00",
+  "captured_at": "2026-11-21T01:41:20.278278+08:00",
   "timezone": "Asia/Shanghai",
   "source_url": "http://www.hrc.gov.cn/swj/",
-  "source_manifest": "data/daily/2026-11-20/020840_183590/manifest.json",
+  "source_manifest": "data/daily/2026-11-21/014120_278278/manifest.json",
   "row_count": 8,
   "fresh": true,
-  "freshness_as_of": "2026-11-20T02:08:42.032622+08:00",
+  "freshness_as_of": "2026-11-21T01:41:22.344588+08:00",
   "stale_threshold_hours": 48,
   "stale_station_rows": 0,
   "future_station_rows": 0,
   "invalid_time_rows": 0,
-  "observation_min": "2026-11-19T08:00:00+08:00",
-  "observation_max": "2026-11-19T08:00:00+08:00",
+  "observation_min": "2026-11-20T08:00:00+08:00",
+  "observation_max": "2026-11-20T08:00:00+08:00",
   "records": [
     {
       "station_key": "name:淮河|息县",
       "river": "淮河",
       "station": "息县",
-      "observed_at": "2026-11-19 08:00:00",
-      "water_level_value": 37.16,
-      "flow_value": 67.9,
+      "observed_at": "2026-11-20 08:00:00",
+      "water_level_value": 37.21,
+      "flow_value": 68.2,
       "units": {
         "water_level_value": null,
         "flow_value": null
       },
       "unit_status": "not_stated_on_page",
-      "limit_value_raw": "-4.34",
-      "limit_value_number": -4.34,
+      "limit_value_raw": "-4.29",
+      "limit_value_number": -4.29,
       "limit_value_semantics": "difference_below_threshold",
       "quality": {
         "water_level_value": "valid",
         "flow_value": "valid"
       },
-      "captured_at": "2026-11-20T02:08:40.183590+08:00",
+      "captured_at": "2026-11-21T01:41:20.278278+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
       "station_key": "name:淮河|王家坝",
       "river": "淮河",
       "station": "王家坝",
-      "observed_at": "2026-11-19 08:00:00",
-      "water_level_value": 21.84,
-      "flow_value": 220.0,
+      "observed_at": "2026-11-20 08:00:00",
+      "water_level_value": 21.97,
+      "flow_value": 270.0,
       "units": {
         "water_level_value": null,
         "flow_value": null
       },
       "unit_status": "not_stated_on_page",
-      "limit_value_raw": "-5.66",
-      "limit_value_number": -5.66,
+      "limit_value_raw": "-5.53",
+      "limit_value_number": -5.53,
       "limit_value_semantics": "difference_below_threshold",
       "quality": {
         "water_level_value": "valid",
         "flow_value": "valid"
       },
-      "captured_at": "2026-11-20T02:08:40.183590+08:00",
+      "captured_at": "2026-11-21T01:41:20.278278+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
       "station_key": "name:淮河|正阳关",
       "river": "淮河",
       "station": "正阳关",
-      "observed_at": "2026-11-19 08:00:00",
-      "water_level_value": 18.46,
+      "observed_at": "2026-11-20 08:00:00",
+      "water_level_value": 18.33,
       "flow_value": null,
       "units": {
         "water_level_value": null,
         "flow_value": null
       },
       "unit_status": "not_stated_on_page",
-      "limit_value_raw": "-5.54",
-      "limit_value_number": -5.54,
+      "limit_value_raw": "-5.67",
+      "limit_value_number": -5.67,
       "limit_value_semantics": "difference_below_threshold",
       "quality": {
         "water_level_value": "valid",
         "flow_value": "missing"
       },
-      "captured_at": "2026-11-20T02:08:40.183590+08:00",
+      "captured_at": "2026-11-21T01:41:20.278278+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
       "station_key": "name:淮河|蚌埠（吴家渡）",
       "river": "淮河",
       "station": "蚌埠（吴家渡）",
-      "observed_at": "2026-11-19 08:00:00",
-      "water_level_value": 14.03,
-      "flow_value": 1160.0,
+      "observed_at": "2026-11-20 08:00:00",
+      "water_level_value": 13.93,
+      "flow_value": 886.0,
       "units": {
         "water_level_value": null,
         "flow_value": null
       },
       "unit_status": "not_stated_on_page",
-      "limit_value_raw": "-6.27",
-      "limit_value_number": -6.27,
+      "limit_value_raw": "-6.37",
+      "limit_value_number": -6.37,
       "limit_value_semantics": "difference_below_threshold",
       "quality": {
         "water_level_value": "valid",
         "flow_value": "valid"
       },
-      "captured_at": "2026-11-20T02:08:40.183590+08:00",
+      "captured_at": "2026-11-21T01:41:20.278278+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
       "station_key": "name:洪泽湖|蒋坝",
       "river": "洪泽湖",
       "station": "蒋坝",
-      "observed_at": "2026-11-19 08:00:00",
-      "water_level_value": 13.55,
+      "observed_at": "2026-11-20 08:00:00",
+      "water_level_value": 13.52,
       "flow_value": null,
       "units": {
         "water_level_value": null,
         "flow_value": null
       },
       "unit_status": "not_stated_on_page",
-      "limit_value_raw": "13.55",
-      "limit_value_number": 13.55,
+      "limit_value_raw": "13.52",
+      "limit_value_number": 13.52,
       "limit_value_semantics": "positive_value_semantics_unconfirmed",
       "quality": {
         "water_level_value": "valid",
         "flow_value": "missing"
       },
-      "captured_at": "2026-11-20T02:08:40.183590+08:00",
+      "captured_at": "2026-11-21T01:41:20.278278+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
       "station_key": "name:沂河|临沂",
       "river": "沂河",
       "station": "临沂",
-      "observed_at": "2026-11-19 08:00:00",
-      "water_level_value": 59.96,
-      "flow_value": 77.0,
+      "observed_at": "2026-11-20 08:00:00",
+      "water_level_value": 59.81,
+      "flow_value": 50.0,
       "units": {
         "water_level_value": null,
         "flow_value": null
       },
       "unit_status": "not_stated_on_page",
-      "limit_value_raw": "-4.09",
-      "limit_value_number": -4.09,
+      "limit_value_raw": "-4.24",
+      "limit_value_number": -4.24,
       "limit_value_semantics": "difference_below_threshold",
       "quality": {
         "water_level_value": "valid",
         "flow_value": "valid"
       },
-      "captured_at": "2026-11-20T02:08:40.183590+08:00",
+      "captured_at": "2026-11-21T01:41:20.278278+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
       "station_key": "name:下级湖|微山",
       "river": "下级湖",
       "station": "微山",
-      "observed_at": "2026-11-19 08:00:00",
-      "water_level_value": 32.31,
+      "observed_at": "2026-11-20 08:00:00",
+      "water_level_value": 32.32,
       "flow_value": null,
       "units": {
         "water_level_value": null,
         "flow_value": null
       },
       "unit_status": "not_stated_on_page",
-      "limit_value_raw": "32.31",
-      "limit_value_number": 32.31,
+      "limit_value_raw": "32.32",
+      "limit_value_number": 32.32,
       "limit_value_semantics": "positive_value_semantics_unconfirmed",
       "quality": {
         "water_level_value": "valid",
         "flow_value": "missing"
       },
-      "captured_at": "2026-11-20T02:08:40.183590+08:00",
+      "captured_at": "2026-11-21T01:41:20.278278+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     },
     {
       "station_key": "name:骆马湖|杨河滩闸",
       "river": "骆马湖",
       "station": "杨河滩闸",
-      "observed_at": "2026-11-19 08:00:00",
-      "water_level_value": 23.13,
+      "observed_at": "2026-11-20 08:00:00",
+      "water_level_value": 23.14,
       "flow_value": null,
       "units": {
         "water_level_value": null,
         "flow_value": null
       },
       "unit_status": "not_stated_on_page",
-      "limit_value_raw": "23.13",
-      "limit_value_number": 23.13,
+      "limit_value_raw": "23.14",
+      "limit_value_number": 23.14,
       "limit_value_semantics": "positive_value_semantics_unconfirmed",
       "quality": {
         "water_level_value": "valid",
         "flow_value": "missing"
       },
-      "captured_at": "2026-11-20T02:08:40.183590+08:00",
+      "captured_at": "2026-11-21T01:41:20.278278+08:00",
       "source_url": "http://www.hrc.gov.cn/swj/"
     }
   ]
