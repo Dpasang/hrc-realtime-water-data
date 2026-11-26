@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-11-27T02:56:15.793405+08:00",
+  "timezone": "Asia/Shanghai",
+  "source_url": "http://www.hrc.gov.cn/swj/",
+  "scheduled_time": "17:00 Asia/Shanghai",
+  "trigger": "schedule",
+  "github_run_id": "45879794331",
+  "snapshot_directory": "data/daily/2026-11-27/025615_793405",
+  "status": "success",
+  "rows": 8,
+  "observation_min": "2026-11-26 08:00:00",
+  "observation_max": "2026-11-26 08:00:00"
+}
